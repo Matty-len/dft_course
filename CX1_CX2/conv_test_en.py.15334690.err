@@ -1,0 +1,398 @@
+Modules Release 4.8.0 (2021-07-14)
+DCC-SW: Added modules (2021-nov/XeonE5-2660v3)
+DCC-SW: Removed standard modules: /apps/dcc/etc/ModulesSL73/modulefiles
+DCC-SW: Using gnu/11.2.0 compiler
+DCC-SW: Released modules (2021-nov/XeonE5-2660v3)
+DCC-SW: Added modules (2020-aug/XeonE5-2660v3)
+DCC-SW: Removed standard modules: /apps/dcc/etc/ModulesSL73/modulefiles
+DCC-SW: Using gnu/9.3.0 compiler
+rank=00 L00: Traceback (most recent call last):
+rank=00 L01:   File "conv_test_en.py", line 18, in <module>
+rank=00 L02:     energy = system.get_potential_energy()
+rank=00 L03:   File "/zhome/06/4/136859/dft_venv/ase/ase/atoms.py", line 730, in get_potential_energy
+rank=00 L04:     energy = self._calc.get_potential_energy(self)
+rank=00 L05:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/abc.py", line 24, in get_potential_energy
+rank=00 L06:     return self.get_property(name, atoms)
+rank=00 L07:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/calculator.py", line 501, in get_property
+rank=00 L08:     self.calculate(atoms, [name], system_changes)
+rank=00 L09:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 371, in calculate
+rank=00 L10:     for _ in self.icalculate(atoms, properties, system_changes):
+rank=00 L11:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 397, in icalculate
+rank=00 L12:     self.initialize(atoms)
+rank=00 L13:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 843, in initialize
+rank=00 L14:     self.create_wave_functions(mode, realspace,
+rank=00 L15:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 1307, in create_wave_functions
+rank=00 L16:     self.wfs = mode(sl, initksl,
+rank=00 L17:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 91, in __call__
+rank=00 L18:     wfs = PWWaveFunctions(ecut,
+rank=00 L19:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 171, in __init__
+rank=00 L20:     FDPWWaveFunctions.__init__(self, parallel, initksl,
+rank=00 L21:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/fdpw.py", line 198, in __init__
+rank=00 L22:     WaveFunctions.__init__(self, **kwargs)
+rank=00 L23:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/base.py", line 63, in __init__
+rank=00 L24:     self.set_setups(setups)
+rank=00 L25:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 198, in set_setups
+rank=00 L26:     self.pd = PWDescriptor(self.ecut, self.gd, self.dtype, self.kd,
+rank=00 L27:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/pw/descriptor.py", line 28, in __init__
+rank=00 L28:     assert ecut <= ecut0
+rank=00 L29: AssertionError
+rank=06 L00: Traceback (most recent call last):
+rank=06 L01:   File "conv_test_en.py", line 18, in <module>
+rank=06 L02:     energy = system.get_potential_energy()
+rank=06 L03:   File "/zhome/06/4/136859/dft_venv/ase/ase/atoms.py", line 730, in get_potential_energy
+rank=06 L04:     energy = self._calc.get_potential_energy(self)
+rank=06 L05:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/abc.py", line 24, in get_potential_energy
+rank=06 L06:     return self.get_property(name, atoms)
+rank=06 L07:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/calculator.py", line 501, in get_property
+rank=06 L08:     self.calculate(atoms, [name], system_changes)
+rank=06 L09:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 371, in calculate
+rank=06 L10:     for _ in self.icalculate(atoms, properties, system_changes):
+rank=06 L11:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 397, in icalculate
+rank=06 L12:     self.initialize(atoms)
+rank=06 L13:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 843, in initialize
+rank=06 L14:     self.create_wave_functions(mode, realspace,
+rank=06 L15:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 1307, in create_wave_functions
+rank=06 L16:     self.wfs = mode(sl, initksl,
+rank=06 L17:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 91, in __call__
+rank=06 L18:     wfs = PWWaveFunctions(ecut,
+rank=06 L19:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 171, in __init__
+rank=06 L20:     FDPWWaveFunctions.__init__(self, parallel, initksl,
+rank=06 L21:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/fdpw.py", line 198, in __init__
+rank=06 L22:     WaveFunctions.__init__(self, **kwargs)
+rank=06 L23:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/base.py", line 63, in __init__
+rank=06 L24:     self.set_setups(setups)
+rank=06 L25:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 198, in set_setups
+rank=06 L26:     self.pd = PWDescriptor(self.ecut, self.gd, self.dtype, self.kd,
+rank=06 L27:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/pw/descriptor.py", line 28, in __init__
+rank=06 L28:     assert ecut <= ecut0
+rank=06 L29: AssertionError
+GPAW CLEANUP (node 6): <class 'AssertionError'> occurred.  Calling MPI_Abort!
+rank=01 L00: Traceback (most recent call last):
+rank=01 L01:   File "conv_test_en.py", line 18, in <module>
+rank=01 L02:     energy = system.get_potential_energy()
+rank=01 L03:   File "/zhome/06/4/136859/dft_venv/ase/ase/atoms.py", line 730, in get_potential_energy
+rank=01 L04:     energy = self._calc.get_potential_energy(self)
+rank=01 L05:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/abc.py", line 24, in get_potential_energy
+rank=01 L06:     return self.get_property(name, atoms)
+rank=01 L07:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/calculator.py", line 501, in get_property
+rank=01 L08:     self.calculate(atoms, [name], system_changes)
+rank=01 L09:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 371, in calculate
+rank=01 L10:     for _ in self.icalculate(atoms, properties, system_changes):
+rank=01 L11:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 397, in icalculate
+rank=01 L12:     self.initialize(atoms)
+rank=01 L13:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 843, in initialize
+rank=01 L14:     self.create_wave_functions(mode, realspace,
+rank=01 L15:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 1307, in create_wave_functions
+rank=01 L16:     self.wfs = mode(sl, initksl,
+rank=01 L17:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 91, in __call__
+rank=01 L18:     wfs = PWWaveFunctions(ecut,
+rank=01 L19:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 171, in __init__
+rank=01 L20:     FDPWWaveFunctions.__init__(self, parallel, initksl,
+rank=01 L21:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/fdpw.py", line 198, in __init__
+rank=01 L22:     WaveFunctions.__init__(self, **kwargs)
+rank=01 L23:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/base.py", line 63, in __init__
+rank=01 L24:     self.set_setups(setups)
+rank=01 L25:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 198, in set_setups
+rank=01 L26:     self.pd = PWDescriptor(self.ecut, self.gd, self.dtype, self.kd,
+rank=01 L27:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/pw/descriptor.py", line 28, in __init__
+rank=01 L28:     assert ecut <= ecut0
+rank=01 L29: AssertionError
+GPAW CLEANUP (node 1): <class 'AssertionError'> occurred.  Calling MPI_Abort!
+rank=02 L00: Traceback (most recent call last):
+rank=02 L01:   File "conv_test_en.py", line 18, in <module>
+rank=02 L02:     energy = system.get_potential_energy()
+rank=02 L03:   File "/zhome/06/4/136859/dft_venv/ase/ase/atoms.py", line 730, in get_potential_energy
+rank=02 L04:     energy = self._calc.get_potential_energy(self)
+rank=02 L05:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/abc.py", line 24, in get_potential_energy
+rank=02 L06:     return self.get_property(name, atoms)
+rank=02 L07:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/calculator.py", line 501, in get_property
+rank=02 L08:     self.calculate(atoms, [name], system_changes)
+rank=02 L09:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 371, in calculate
+rank=02 L10:     for _ in self.icalculate(atoms, properties, system_changes):
+rank=02 L11:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 397, in icalculate
+rank=02 L12:     self.initialize(atoms)
+rank=02 L13:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 843, in initialize
+rank=02 L14:     self.create_wave_functions(mode, realspace,
+rank=02 L15:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 1307, in create_wave_functions
+rank=02 L16:     self.wfs = mode(sl, initksl,
+rank=02 L17:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 91, in __call__
+rank=02 L18:     wfs = PWWaveFunctions(ecut,
+rank=02 L19:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 171, in __init__
+rank=02 L20:     FDPWWaveFunctions.__init__(self, parallel, initksl,
+rank=02 L21:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/fdpw.py", line 198, in __init__
+rank=02 L22:     WaveFunctions.__init__(self, **kwargs)
+rank=02 L23:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/base.py", line 63, in __init__
+rank=02 L24:     self.set_setups(setups)
+rank=02 L25:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 198, in set_setups
+rank=02 L26:     self.pd = PWDescriptor(self.ecut, self.gd, self.dtype, self.kd,
+rank=02 L27:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/pw/descriptor.py", line 28, in __init__
+rank=02 L28:     assert ecut <= ecut0
+rank=02 L29: AssertionError
+GPAW CLEANUP (node 2): <class 'AssertionError'> occurred.  Calling MPI_Abort!
+rank=03 L00: Traceback (most recent call last):
+rank=03 L01:   File "conv_test_en.py", line 18, in <module>
+rank=03 L02:     energy = system.get_potential_energy()
+rank=03 L03:   File "/zhome/06/4/136859/dft_venv/ase/ase/atoms.py", line 730, in get_potential_energy
+rank=03 L04:     energy = self._calc.get_potential_energy(self)
+rank=03 L05:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/abc.py", line 24, in get_potential_energy
+rank=03 L06:     return self.get_property(name, atoms)
+rank=03 L07:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/calculator.py", line 501, in get_property
+rank=03 L08:     self.calculate(atoms, [name], system_changes)
+rank=03 L09:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 371, in calculate
+rank=03 L10:     for _ in self.icalculate(atoms, properties, system_changes):
+rank=03 L11:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 397, in icalculate
+rank=03 L12:     self.initialize(atoms)
+rank=03 L13:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 843, in initialize
+rank=03 L14:     self.create_wave_functions(mode, realspace,
+rank=03 L15:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 1307, in create_wave_functions
+rank=03 L16:     self.wfs = mode(sl, initksl,
+rank=03 L17:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 91, in __call__
+rank=03 L18:     wfs = PWWaveFunctions(ecut,
+rank=03 L19:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 171, in __init__
+rank=03 L20:     FDPWWaveFunctions.__init__(self, parallel, initksl,
+rank=03 L21:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/fdpw.py", line 198, in __init__
+rank=03 L22:     WaveFunctions.__init__(self, **kwargs)
+rank=03 L23:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/base.py", line 63, in __init__
+rank=03 L24:     self.set_setups(setups)
+rank=03 L25:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 198, in set_setups
+rank=03 L26:     self.pd = PWDescriptor(self.ecut, self.gd, self.dtype, self.kd,
+rank=03 L27:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/pw/descriptor.py", line 28, in __init__
+rank=03 L28:     assert ecut <= ecut0
+rank=03 L29: AssertionError
+rank=04 L00: Traceback (most recent call last):
+rank=04 L01:   File "conv_test_en.py", line 18, in <module>
+rank=04 L02:     energy = system.get_potential_energy()
+rank=04 L03:   File "/zhome/06/4/136859/dft_venv/ase/ase/atoms.py", line 730, in get_potential_energy
+rank=04 L04:     energy = self._calc.get_potential_energy(self)
+rank=04 L05:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/abc.py", line 24, in get_potential_energy
+rank=04 L06:     return self.get_property(name, atoms)
+rank=04 L07:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/calculator.py", line 501, in get_property
+rank=04 L08:     self.calculate(atoms, [name], system_changes)
+rank=04 L09:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 371, in calculate
+rank=04 L10:     for _ in self.icalculate(atoms, properties, system_changes):
+rank=04 L11:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 397, in icalculate
+rank=04 L12:     self.initialize(atoms)
+rank=04 L13:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 843, in initialize
+rank=04 L14:     self.create_wave_functions(mode, realspace,
+rank=04 L15:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 1307, in create_wave_functions
+rank=04 L16:     self.wfs = mode(sl, initksl,
+rank=04 L17:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 91, in __call__
+rank=04 L18:     wfs = PWWaveFunctions(ecut,
+rank=04 L19:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 171, in __init__
+rank=04 L20:     FDPWWaveFunctions.__init__(self, parallel, initksl,
+rank=04 L21:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/fdpw.py", line 198, in __init__
+rank=04 L22:     WaveFunctions.__init__(self, **kwargs)
+rank=04 L23:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/base.py", line 63, in __init__
+rank=04 L24:     self.set_setups(setups)
+rank=04 L25:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 198, in set_setups
+rank=04 L26:     self.pd = PWDescriptor(self.ecut, self.gd, self.dtype, self.kd,
+rank=04 L27:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/pw/descriptor.py", line 28, in __init__
+rank=04 L28:     assert ecut <= ecut0
+rank=04 L29: AssertionError
+GPAW CLEANUP (node 4): <class 'AssertionError'> occurred.  Calling MPI_Abort!
+rank=05 L00: Traceback (most recent call last):
+rank=05 L01:   File "conv_test_en.py", line 18, in <module>
+rank=05 L02:     energy = system.get_potential_energy()
+rank=05 L03:   File "/zhome/06/4/136859/dft_venv/ase/ase/atoms.py", line 730, in get_potential_energy
+rank=05 L04:     energy = self._calc.get_potential_energy(self)
+rank=05 L05:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/abc.py", line 24, in get_potential_energy
+rank=05 L06:     return self.get_property(name, atoms)
+rank=05 L07:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/calculator.py", line 501, in get_property
+rank=05 L08:     self.calculate(atoms, [name], system_changes)
+rank=05 L09:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 371, in calculate
+rank=05 L10:     for _ in self.icalculate(atoms, properties, system_changes):
+rank=05 L11:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 397, in icalculate
+rank=05 L12:     self.initialize(atoms)
+rank=05 L13:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 843, in initialize
+rank=05 L14:     self.create_wave_functions(mode, realspace,
+rank=05 L15:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 1307, in create_wave_functions
+rank=05 L16:     self.wfs = mode(sl, initksl,
+rank=05 L17:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 91, in __call__
+rank=05 L18:     wfs = PWWaveFunctions(ecut,
+rank=05 L19:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 171, in __init__
+rank=05 L20:     FDPWWaveFunctions.__init__(self, parallel, initksl,
+rank=05 L21:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/fdpw.py", line 198, in __init__
+rank=05 L22:     WaveFunctions.__init__(self, **kwargs)
+rank=05 L23:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/base.py", line 63, in __init__
+rank=05 L24:     self.set_setups(setups)
+rank=05 L25:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 198, in set_setups
+rank=05 L26:     self.pd = PWDescriptor(self.ecut, self.gd, self.dtype, self.kd,
+rank=05 L27:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/pw/descriptor.py", line 28, in __init__
+rank=05 L28:     assert ecut <= ecut0
+rank=05 L29: AssertionError
+GPAW CLEANUP (node 5): <class 'AssertionError'> occurred.  Calling MPI_Abort!
+rank=07 L00: Traceback (most recent call last):
+rank=07 L01:   File "conv_test_en.py", line 18, in <module>
+rank=07 L02:     energy = system.get_potential_energy()
+rank=07 L03:   File "/zhome/06/4/136859/dft_venv/ase/ase/atoms.py", line 730, in get_potential_energy
+rank=07 L04:     energy = self._calc.get_potential_energy(self)
+rank=07 L05:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/abc.py", line 24, in get_potential_energy
+rank=07 L06:     return self.get_property(name, atoms)
+rank=07 L07:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/calculator.py", line 501, in get_property
+rank=07 L08:     self.calculate(atoms, [name], system_changes)
+rank=07 L09:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 371, in calculate
+rank=07 L10:     for _ in self.icalculate(atoms, properties, system_changes):
+rank=07 L11:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 397, in icalculate
+rank=07 L12:     self.initialize(atoms)
+rank=07 L13:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 843, in initialize
+rank=07 L14:     self.create_wave_functions(mode, realspace,
+rank=07 L15:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 1307, in create_wave_functions
+rank=07 L16:     self.wfs = mode(sl, initksl,
+rank=07 L17:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 91, in __call__
+rank=07 L18:     wfs = PWWaveFunctions(ecut,
+rank=07 L19:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 171, in __init__
+rank=07 L20:     FDPWWaveFunctions.__init__(self, parallel, initksl,
+rank=07 L21:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/fdpw.py", line 198, in __init__
+rank=07 L22:     WaveFunctions.__init__(self, **kwargs)
+rank=07 L23:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/base.py", line 63, in __init__
+rank=07 L24:     self.set_setups(setups)
+rank=07 L25:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 198, in set_setups
+rank=07 L26:     self.pd = PWDescriptor(self.ecut, self.gd, self.dtype, self.kd,
+rank=07 L27:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/pw/descriptor.py", line 28, in __init__
+rank=07 L28:     assert ecut <= ecut0
+rank=07 L29: AssertionError
+GPAW CLEANUP (node 7): <class 'AssertionError'> occurred.  Calling MPI_Abort!
+rank=08 L00: Traceback (most recent call last):
+rank=08 L01:   File "conv_test_en.py", line 18, in <module>
+rank=08 L02:     energy = system.get_potential_energy()
+rank=08 L03:   File "/zhome/06/4/136859/dft_venv/ase/ase/atoms.py", line 730, in get_potential_energy
+rank=08 L04:     energy = self._calc.get_potential_energy(self)
+rank=08 L05:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/abc.py", line 24, in get_potential_energy
+rank=08 L06:     return self.get_property(name, atoms)
+rank=08 L07:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/calculator.py", line 501, in get_property
+rank=08 L08:     self.calculate(atoms, [name], system_changes)
+rank=08 L09:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 371, in calculate
+rank=08 L10:     for _ in self.icalculate(atoms, properties, system_changes):
+rank=08 L11:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 397, in icalculate
+rank=08 L12:     self.initialize(atoms)
+rank=08 L13:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 843, in initialize
+rank=08 L14:     self.create_wave_functions(mode, realspace,
+rank=08 L15:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 1307, in create_wave_functions
+rank=08 L16:     self.wfs = mode(sl, initksl,
+rank=08 L17:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 91, in __call__
+rank=08 L18:     wfs = PWWaveFunctions(ecut,
+rank=08 L19:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 171, in __init__
+rank=08 L20:     FDPWWaveFunctions.__init__(self, parallel, initksl,
+rank=08 L21:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/fdpw.py", line 198, in __init__
+rank=08 L22:     WaveFunctions.__init__(self, **kwargs)
+rank=08 L23:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/base.py", line 63, in __init__
+rank=08 L24:     self.set_setups(setups)
+rank=08 L25:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 198, in set_setups
+rank=08 L26:     self.pd = PWDescriptor(self.ecut, self.gd, self.dtype, self.kd,
+rank=08 L27:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/pw/descriptor.py", line 28, in __init__
+rank=08 L28:     assert ecut <= ecut0
+rank=08 L29: AssertionError
+GPAW CLEANUP (node 8): <class 'AssertionError'> occurred.  Calling MPI_Abort!
+rank=11 L00: Traceback (most recent call last):
+rank=11 L01:   File "conv_test_en.py", line 18, in <module>
+rank=11 L02:     energy = system.get_potential_energy()
+rank=11 L03:   File "/zhome/06/4/136859/dft_venv/ase/ase/atoms.py", line 730, in get_potential_energy
+rank=11 L04:     energy = self._calc.get_potential_energy(self)
+rank=11 L05:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/abc.py", line 24, in get_potential_energy
+rank=11 L06:     return self.get_property(name, atoms)
+rank=11 L07:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/calculator.py", line 501, in get_property
+rank=11 L08:     self.calculate(atoms, [name], system_changes)
+rank=11 L09:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 371, in calculate
+rank=11 L10:     for _ in self.icalculate(atoms, properties, system_changes):
+rank=11 L11:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 397, in icalculate
+rank=11 L12:     self.initialize(atoms)
+rank=11 L13:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 843, in initialize
+rank=11 L14:     self.create_wave_functions(mode, realspace,
+rank=11 L15:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 1307, in create_wave_functions
+rank=11 L16:     self.wfs = mode(sl, initksl,
+rank=11 L17:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 91, in __call__
+rank=11 L18:     wfs = PWWaveFunctions(ecut,
+rank=11 L19:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 171, in __init__
+rank=11 L20:     FDPWWaveFunctions.__init__(self, parallel, initksl,
+rank=11 L21:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/fdpw.py", line 198, in __init__
+rank=11 L22:     WaveFunctions.__init__(self, **kwargs)
+rank=11 L23:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/base.py", line 63, in __init__
+rank=11 L24:     self.set_setups(setups)
+rank=11 L25:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 198, in set_setups
+rank=11 L26:     self.pd = PWDescriptor(self.ecut, self.gd, self.dtype, self.kd,
+rank=11 L27:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/pw/descriptor.py", line 28, in __init__
+rank=11 L28:     assert ecut <= ecut0
+rank=11 L29: AssertionError
+GPAW CLEANUP (node 11): <class 'AssertionError'> occurred.  Calling MPI_Abort!
+GPAW CLEANUP (node 3): <class 'AssertionError'> occurred.  Calling MPI_Abort!
+GPAW CLEANUP (node 0): <class 'AssertionError'> occurred.  Calling MPI_Abort!
+rank=09 L00: Traceback (most recent call last):
+rank=09 L01:   File "conv_test_en.py", line 18, in <module>
+rank=09 L02:     energy = system.get_potential_energy()
+rank=09 L03:   File "/zhome/06/4/136859/dft_venv/ase/ase/atoms.py", line 730, in get_potential_energy
+rank=09 L04:     energy = self._calc.get_potential_energy(self)
+rank=09 L05:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/abc.py", line 24, in get_potential_energy
+rank=09 L06:     return self.get_property(name, atoms)
+rank=09 L07:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/calculator.py", line 501, in get_property
+rank=09 L08:     self.calculate(atoms, [name], system_changes)
+rank=09 L09:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 371, in calculate
+rank=09 L10:     for _ in self.icalculate(atoms, properties, system_changes):
+rank=09 L11:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 397, in icalculate
+rank=09 L12:     self.initialize(atoms)
+rank=09 L13:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 843, in initialize
+rank=09 L14:     self.create_wave_functions(mode, realspace,
+rank=09 L15:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 1307, in create_wave_functions
+rank=09 L16:     self.wfs = mode(sl, initksl,
+rank=09 L17:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 91, in __call__
+rank=09 L18:     wfs = PWWaveFunctions(ecut,
+rank=09 L19:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 171, in __init__
+rank=09 L20:     FDPWWaveFunctions.__init__(self, parallel, initksl,
+rank=09 L21:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/fdpw.py", line 198, in __init__
+rank=09 L22:     WaveFunctions.__init__(self, **kwargs)
+rank=09 L23:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/base.py", line 63, in __init__
+rank=09 L24:     self.set_setups(setups)
+rank=09 L25:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 198, in set_setups
+rank=09 L26:     self.pd = PWDescriptor(self.ecut, self.gd, self.dtype, self.kd,
+rank=09 L27:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/pw/descriptor.py", line 28, in __init__
+rank=09 L28:     assert ecut <= ecut0
+rank=09 L29: AssertionError
+GPAW CLEANUP (node 9): <class 'AssertionError'> occurred.  Calling MPI_Abort!
+rank=10 L00: Traceback (most recent call last):
+rank=10 L01:   File "conv_test_en.py", line 18, in <module>
+rank=10 L02:     energy = system.get_potential_energy()
+rank=10 L03:   File "/zhome/06/4/136859/dft_venv/ase/ase/atoms.py", line 730, in get_potential_energy
+rank=10 L04:     energy = self._calc.get_potential_energy(self)
+rank=10 L05:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/abc.py", line 24, in get_potential_energy
+rank=10 L06:     return self.get_property(name, atoms)
+rank=10 L07:   File "/zhome/06/4/136859/dft_venv/ase/ase/calculators/calculator.py", line 501, in get_property
+rank=10 L08:     self.calculate(atoms, [name], system_changes)
+rank=10 L09:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 371, in calculate
+rank=10 L10:     for _ in self.icalculate(atoms, properties, system_changes):
+rank=10 L11:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 397, in icalculate
+rank=10 L12:     self.initialize(atoms)
+rank=10 L13:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 843, in initialize
+rank=10 L14:     self.create_wave_functions(mode, realspace,
+rank=10 L15:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/calculator.py", line 1307, in create_wave_functions
+rank=10 L16:     self.wfs = mode(sl, initksl,
+rank=10 L17:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 91, in __call__
+rank=10 L18:     wfs = PWWaveFunctions(ecut,
+rank=10 L19:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 171, in __init__
+rank=10 L20:     FDPWWaveFunctions.__init__(self, parallel, initksl,
+rank=10 L21:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/fdpw.py", line 198, in __init__
+rank=10 L22:     WaveFunctions.__init__(self, **kwargs)
+rank=10 L23:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/base.py", line 63, in __init__
+rank=10 L24:     self.set_setups(setups)
+rank=10 L25:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/wavefunctions/pw.py", line 198, in set_setups
+rank=10 L26:     self.pd = PWDescriptor(self.ecut, self.gd, self.dtype, self.kd,
+rank=10 L27:   File "/zhome/06/4/136859/dft_venv/gpaw/gpaw/pw/descriptor.py", line 28, in __init__
+rank=10 L28:     assert ecut <= ecut0
+rank=10 L29: AssertionError
+GPAW CLEANUP (node 10): <class 'AssertionError'> occurred.  Calling MPI_Abort!
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+with errorcode 42.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[n-62-28-31:28478] PMIX ERROR: UNREACHABLE in file ../../../../../../../opal/mca/pmix/pmix3x/pmix/src/server/pmix_server.c at line 2193
+[n-62-28-31:28478] PMIX ERROR: UNREACHABLE in file ../../../../../../../opal/mca/pmix/pmix3x/pmix/src/server/pmix_server.c at line 2193
+[n-62-28-31:28478] PMIX ERROR: UNREACHABLE in file ../../../../../../../opal/mca/pmix/pmix3x/pmix/src/server/pmix_server.c at line 2193
+[n-62-28-31:28478] PMIX ERROR: UNREACHABLE in file ../../../../../../../opal/mca/pmix/pmix3x/pmix/src/server/pmix_server.c at line 2193
+[n-62-28-31:28478] PMIX ERROR: UNREACHABLE in file ../../../../../../../opal/mca/pmix/pmix3x/pmix/src/server/pmix_server.c at line 2193
+[n-62-28-31:28478] PMIX ERROR: UNREACHABLE in file ../../../../../../../opal/mca/pmix/pmix3x/pmix/src/server/pmix_server.c at line 2193
+[n-62-28-31:28478] PMIX ERROR: UNREACHABLE in file ../../../../../../../opal/mca/pmix/pmix3x/pmix/src/server/pmix_server.c at line 2193
+[n-62-28-31:28478] PMIX ERROR: UNREACHABLE in file ../../../../../../../opal/mca/pmix/pmix3x/pmix/src/server/pmix_server.c at line 2193
+[n-62-28-31:28478] 11 more processes have sent help message help-mpi-api.txt / mpi-abort
+[n-62-28-31:28478] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

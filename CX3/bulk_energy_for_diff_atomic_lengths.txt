@@ -1,0 +1,4 @@
+name: bulk-fcc-3.9, energy-4.107395295729819
+name: bulk-fcc-4.0, energy-4.129761799181154
+name: bulk-fcc-4.1, energy-4.104109249187723
+name: bulk-fcc-4.2, energy-4.042361840865782

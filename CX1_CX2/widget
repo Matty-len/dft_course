@@ -1,0 +1,118 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%notebook widget"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#RUnning of the basic tutorial\n",
+    "from ase import Atoms\n",
+    "atoms = Atoms('N2', positions=[[0, 0, -1], [0, 0, 1]])\n",
+    "from ase.visualize import view\n",
+    "v = view(atoms, viewer='ngl')\n",
+    "v.view.center_view()\n",
+    "\n",
+    "v.custom_colors({'H':'green','As':'blue'})\n",
+    "v.view._remote_call(\"setSize\", target=\"Widget\", args=[\"400px\", \"400px\"])\n",
+    "v.view.center_view()\n",
+    "v.view.background='#ffc'\n",
+    "v.view.parameters=dict(clipDist=-200)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#RUnning of the basic tutorial\n",
+    "from ase import Atoms\n",
+    "atoms = Atoms('N2', positions=[[0, 0, -1], [0, 0, 1]])\n",
+    "from ase.visualize import view\n",
+    "v = view(atoms, viewer='ngl')\n",
+    "v.view.center_view()\n",
+    "\n",
+    "v.custom_colors({'H':'green','As':'blue'})\n",
+    "v.view._remote_call(\"setSize\", target=\"Widget\", args=[\"400px\", \"400px\"])\n",
+    "v.view.center_view()\n",
+    "v.view.background='#ffc'\n",
+    "v.view.parameters=dict(clipDist=-200)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "v\n",
+    "view(atoms, viewer='ngl')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import matplotlib.pyplot as plt\n",
+    "from ase.visualize.plot import plot_atoms\n",
+    "from ase.lattice.cubic import FaceCenteredCubic\n",
+    "slab = FaceCenteredCubic('Au', size=(2, 2, 2))\n",
+    "fig, ax = plt.subplots()\n",
+    "plot_atoms(slab, ax, radii=0.3, rotation=('90x,45y,0z'))\n",
+    "fig.savefig(\"ase_slab.png\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from gpaw import GPAW\n",
+    "\n",
+    "calc = GPAW(mode='lcao', basis='dzp', txt='gpaw.txt', xc='LDA')\n",
+    "atoms.calc = calc\n",
+    "atoms.center(vacuum=3.0)\n",
+    "print(atoms)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "e = atoms.get_potential_energy()\n",
+    "print('Energy', e)\n",
+    "f = atoms.get_forces()\n",
+    "print('Forces')\n",
+    "print(f)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import nglview as nv\n",
+    "nv.demo()"
+   ]
+  }
+ ],
+ "metadata": {},
+ "nbformat": 4,
+ "nbformat_minor": 4
+}

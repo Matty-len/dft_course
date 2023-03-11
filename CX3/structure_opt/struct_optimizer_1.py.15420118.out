@@ -1,0 +1,56 @@
+venv: /zhome/06/4/136859/dft_venv/bin/activate
+[1677079523.315978] [n-62-28-33:23256:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677079523.316182] [n-62-28-33:23256:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 15420118: <struct_optimizer_1.py> in cluster <dcc> Done
+
+Job <struct_optimizer_1.py> was submitted from host <gbarlogin1> by user <s183553> in cluster <dcc> at Wed Feb 22 16:25:13 2023
+Job was executed on host(s) <n-62-28-33>, in queue <hpc>, as user <s183553> in cluster <dcc> at Wed Feb 22 16:25:14 2023
+</zhome/06/4/136859> was used as the home directory.
+</zhome/06/4/136859/dft_course/CX3/structure_opt> was used as the working directory.
+Started at Wed Feb 22 16:25:14 2023
+Terminated at Wed Feb 22 16:25:42 2023
+Results reported at Wed Feb 22 16:25:42 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash -l
+id=$LSB_JOBID
+mq=/zhome/06/4/136859/dft_course/.myqueue/lsf-$id
+source /zhome/06/4/136859/dft_venv/bin/activate
+echo "venv: /zhome/06/4/136859/dft_venv/bin/activate"
+(touch $mq-0 && \
+ cd '/zhome/06/4/136859/dft_course/CX3/structure_opt' && \
+ python3 struct_optimizer_1.py && \
+ touch $mq-1) || \
+(touch $mq-2; exit 1)
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18.07 sec.
+    Max Memory :                                 177 MB
+    Average Memory :                             177.00 MB
+    Total Requested Memory :                     6144.00 MB
+    Delta Memory :                               5967.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                13
+    Run time :                                   79 sec.
+    Turnaround time :                            29 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </zhome/06/4/136859/dft_course/CX3/structure_opt/struct_optimizer_1.py.15420118.err> for stderr output of this job.
+

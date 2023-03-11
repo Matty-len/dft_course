@@ -1,0 +1,102 @@
+venv: /zhome/06/4/136859/dft_venv/bin/activate
+[1677080103.947206] [n-62-21-90:23475:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080103.947247] [n-62-21-90:23475:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.531771] [n-62-21-90:23479:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.531814] [n-62-21-90:23479:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.531771] [n-62-21-90:23481:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.531814] [n-62-21-90:23481:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.531825] [n-62-21-90:23483:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.531862] [n-62-21-90:23483:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.531976] [n-62-21-90:23476:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.532012] [n-62-21-90:23476:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.531966] [n-62-21-90:23493:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.532011] [n-62-21-90:23493:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.532115] [n-62-21-90:23491:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.532155] [n-62-21-90:23491:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.532155] [n-62-21-90:23487:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.532196] [n-62-21-90:23487:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.532313] [n-62-21-90:23489:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.532352] [n-62-21-90:23489:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.532515] [n-62-21-90:23478:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.532555] [n-62-21-90:23478:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.532562] [n-62-21-90:23496:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.532603] [n-62-21-90:23496:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.532940] [n-62-21-90:23477:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.532982] [n-62-21-90:23477:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.533064] [n-62-21-90:23497:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.533108] [n-62-21-90:23497:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.533292] [n-62-21-90:23484:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.533333] [n-62-21-90:23484:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.533353] [n-62-21-90:23490:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.533388] [n-62-21-90:23490:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.534117] [n-62-21-90:23492:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.534156] [n-62-21-90:23492:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.534240] [n-62-21-90:23494:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.534302] [n-62-21-90:23494:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.534450] [n-62-21-90:23480:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.534493] [n-62-21-90:23480:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.534461] [n-62-21-90:23485:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.534502] [n-62-21-90:23485:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.534466] [n-62-21-90:23499:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.534507] [n-62-21-90:23499:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.534591] [n-62-21-90:23495:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.534632] [n-62-21-90:23495:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.535287] [n-62-21-90:23498:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.535328] [n-62-21-90:23498:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.536920] [n-62-21-90:23486:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.536975] [n-62-21-90:23486:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1677080104.539337] [n-62-21-90:23488:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1677080104.539383] [n-62-21-90:23488:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 15420138: <finding_lattic_constant.py> in cluster <dcc> Done
+
+Job <finding_lattic_constant.py> was submitted from host <gbarlogin1> by user <s183553> in cluster <dcc> at Wed Feb 22 16:34:56 2023
+Job was executed on host(s) <24*n-62-21-90>, in queue <hpc>, as user <s183553> in cluster <dcc> at Wed Feb 22 16:34:57 2023
+</zhome/06/4/136859> was used as the home directory.
+</zhome/06/4/136859/dft_course/CX3/finding_lattice_constant> was used as the working directory.
+Started at Wed Feb 22 16:34:57 2023
+Terminated at Wed Feb 22 16:35:55 2023
+Results reported at Wed Feb 22 16:35:55 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash -l
+id=$LSB_JOBID
+mq=/zhome/06/4/136859/dft_course/.myqueue/lsf-$id
+source /zhome/06/4/136859/dft_venv/bin/activate
+echo "venv: /zhome/06/4/136859/dft_venv/bin/activate"
+(touch $mq-0 && \
+ cd '/zhome/06/4/136859/dft_course/CX3/finding_lattice_constant' && \
+ mpiexec python3 finding_lattic_constant.py && \
+ touch $mq-1) || \
+(touch $mq-2; exit 1)
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1248.22 sec.
+    Max Memory :                                 1647 MB
+    Average Memory :                             1647.00 MB
+    Total Requested Memory :                     245760.00 MB
+    Delta Memory :                               244113.00 MB
+    Max Swap :                                   -
+    Max Processes :                              29
+    Max Threads :                                105
+    Run time :                                   157 sec.
+    Turnaround time :                            59 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </zhome/06/4/136859/dft_course/CX3/finding_lattice_constant/finding_lattic_constant.py.15420138.err> for stderr output of this job.
+

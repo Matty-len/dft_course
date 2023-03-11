@@ -1,0 +1,54 @@
+venv: /zhome/06/4/136859/dft_venv/bin/activate
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 15284345: <...> in cluster <dcc> Exited
+
+Job <...> was submitted from host <n-62-30-7> by user <s183553> in cluster <dcc> at Thu Feb  2 08:13:12 2023
+Job was executed on host(s) <n-62-28-34>, in queue <hpc>, as user <s183553> in cluster <dcc> at Thu Feb  2 08:13:14 2023
+</zhome/06/4/136859> was used as the home directory.
+</zhome/06/4/136859/dft_course> was used as the working directory.
+Started at Thu Feb  2 08:13:14 2023
+Terminated at Thu Feb  2 08:13:16 2023
+Results reported at Thu Feb  2 08:13:16 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash -l
+id=$LSB_JOBID
+mq=/zhome/06/4/136859/.myqueue/lsf-$id
+source /zhome/06/4/136859/dft_venv/bin/activate
+echo "venv: /zhome/06/4/136859/dft_venv/bin/activate"
+(touch $mq-0 && \
+ cd '/zhome/06/4/136859/dft_course' && \
+ python3 -m ... && \
+ touch $mq-1) || \
+(touch $mq-2; exit 1)
+
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   1.12 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     6144.00 MB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              1
+    Max Threads :                                1
+    Run time :                                   6 sec.
+    Turnaround time :                            4 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </zhome/06/4/136859/dft_course/....15284345.err> for stderr output of this job.
+
