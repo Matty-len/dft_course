@@ -30,5 +30,5 @@ calc = GPAW('Ag_gs.gpw').fixed_density(
 
 # P3
 bs = calc.band_structure()
-bs.plot(filename='bandstructure_ag.png', show=True, emax=10.0)
+bs.plot(filename='bandstructure_ag.png', show=True, emax=25.0)
 
