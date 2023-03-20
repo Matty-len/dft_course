@@ -1,0 +1,77 @@
+Modules Release 4.8.0 (2021-07-14)
+DCC-SW: Added modules (2021-nov/XeonE5-2660v3)
+DCC-SW: Removed standard modules: /apps/dcc/etc/ModulesSL73/modulefiles
+DCC-SW: Using gnu/11.2.0 compiler
+DCC-SW: Released modules (2021-nov/XeonE5-2660v3)
+DCC-SW: Added modules (2020-aug/XeonE5-2660v3)
+DCC-SW: Removed standard modules: /apps/dcc/etc/ModulesSL73/modulefiles
+DCC-SW: Using gnu/9.3.0 compiler
+rank=04 L0: Traceback (most recent call last):
+rank=04 L1:   File "calc_of_dos_1.py", line 22, in <module>
+rank=04 L2:     P_aui = [[kpt.P_ani[a][n] for kpt in c_mol.wfs.kpt_u] for a in range(len(molecule))] # fejler her.
+rank=04 L3:   File "calc_of_dos_1.py", line 22, in <listcomp>
+rank=04 L4:     P_aui = [[kpt.P_ani[a][n] for kpt in c_mol.wfs.kpt_u] for a in range(len(molecule))] # fejler her.
+rank=04 L5:   File "calc_of_dos_1.py", line 22, in <listcomp>
+rank=04 L6:     P_aui = [[kpt.P_ani[a][n] for kpt in c_mol.wfs.kpt_u] for a in range(len(molecule))] # fejler her.
+rank=04 L7: KeyError: 0
+rank=08 L0: Traceback (most recent call last):
+rank=08 L1:   File "calc_of_dos_1.py", line 22, in <module>
+rank=08 L2:     P_aui = [[kpt.P_ani[a][n] for kpt in c_mol.wfs.kpt_u] for a in range(len(molecule))] # fejler her.
+rank=08 L3:   File "calc_of_dos_1.py", line 22, in <listcomp>
+rank=08 L4:     P_aui = [[kpt.P_ani[a][n] for kpt in c_mol.wfs.kpt_u] for a in range(len(molecule))] # fejler her.
+rank=08 L5:   File "calc_of_dos_1.py", line 22, in <listcomp>
+rank=08 L6:     P_aui = [[kpt.P_ani[a][n] for kpt in c_mol.wfs.kpt_u] for a in range(len(molecule))] # fejler her.
+rank=08 L7: KeyError: 0
+GPAW CLEANUP (node 8): <class 'KeyError'> occurred.  Calling MPI_Abort!
+GPAW CLEANUP (node 4): <class 'KeyError'> occurred.  Calling MPI_Abort!
+rank=02 L0: Traceback (most recent call last):
+rank=02 L1:   File "calc_of_dos_1.py", line 22, in <module>
+rank=02 L2:     P_aui = [[kpt.P_ani[a][n] for kpt in c_mol.wfs.kpt_u] for a in range(len(molecule))] # fejler her.
+rank=02 L3:   File "calc_of_dos_1.py", line 22, in <listcomp>
+rank=02 L4:     P_aui = [[kpt.P_ani[a][n] for kpt in c_mol.wfs.kpt_u] for a in range(len(molecule))] # fejler her.
+rank=02 L5:   File "calc_of_dos_1.py", line 22, in <listcomp>
+rank=02 L6:     P_aui = [[kpt.P_ani[a][n] for kpt in c_mol.wfs.kpt_u] for a in range(len(molecule))] # fejler her.
+rank=02 L7: KeyError: 0
+rank=06 L0: Traceback (most recent call last):
+rank=06 L1:   File "calc_of_dos_1.py", line 22, in <module>
+rank=06 L2:     P_aui = [[kpt.P_ani[a][n] for kpt in c_mol.wfs.kpt_u] for a in range(len(molecule))] # fejler her.
+rank=06 L3:   File "calc_of_dos_1.py", line 22, in <listcomp>
+rank=06 L4:     P_aui = [[kpt.P_ani[a][n] for kpt in c_mol.wfs.kpt_u] for a in range(len(molecule))] # fejler her.
+rank=06 L5:   File "calc_of_dos_1.py", line 22, in <listcomp>
+rank=06 L6:     P_aui = [[kpt.P_ani[a][n] for kpt in c_mol.wfs.kpt_u] for a in range(len(molecule))] # fejler her.
+rank=06 L7: KeyError: 0
+GPAW CLEANUP (node 2): <class 'KeyError'> occurred.  Calling MPI_Abort!
+GPAW CLEANUP (node 6): <class 'KeyError'> occurred.  Calling MPI_Abort!
+rank=00 L0: Traceback (most recent call last):
+rank=00 L1:   File "calc_of_dos_1.py", line 22, in <module>
+rank=00 L2:     P_aui = [[kpt.P_ani[a][n] for kpt in c_mol.wfs.kpt_u] for a in range(len(molecule))] # fejler her.
+rank=00 L3:   File "calc_of_dos_1.py", line 22, in <listcomp>
+rank=00 L4:     P_aui = [[kpt.P_ani[a][n] for kpt in c_mol.wfs.kpt_u] for a in range(len(molecule))] # fejler her.
+rank=00 L5:   File "calc_of_dos_1.py", line 22, in <listcomp>
+rank=00 L6:     P_aui = [[kpt.P_ani[a][n] for kpt in c_mol.wfs.kpt_u] for a in range(len(molecule))] # fejler her.
+rank=00 L7: KeyError: 0
+GPAW CLEANUP (node 0): <class 'KeyError'> occurred.  Calling MPI_Abort!
+rank=10 L0: Traceback (most recent call last):
+rank=10 L1:   File "calc_of_dos_1.py", line 22, in <module>
+rank=10 L2:     P_aui = [[kpt.P_ani[a][n] for kpt in c_mol.wfs.kpt_u] for a in range(len(molecule))] # fejler her.
+rank=10 L3:   File "calc_of_dos_1.py", line 22, in <listcomp>
+rank=10 L4:     P_aui = [[kpt.P_ani[a][n] for kpt in c_mol.wfs.kpt_u] for a in range(len(molecule))] # fejler her.
+rank=10 L5:   File "calc_of_dos_1.py", line 22, in <listcomp>
+rank=10 L6:     P_aui = [[kpt.P_ani[a][n] for kpt in c_mol.wfs.kpt_u] for a in range(len(molecule))] # fejler her.
+rank=10 L7: KeyError: 0
+GPAW CLEANUP (node 10): <class 'KeyError'> occurred.  Calling MPI_Abort!
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 6 in communicator MPI_COMM_WORLD
+with errorcode 42.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[n-62-29-17:06800] PMIX ERROR: UNREACHABLE in file ../../../../../../../opal/mca/pmix/pmix3x/pmix/src/server/pmix_server.c at line 2193
+[n-62-29-17:06800] PMIX ERROR: UNREACHABLE in file ../../../../../../../opal/mca/pmix/pmix3x/pmix/src/server/pmix_server.c at line 2193
+[n-62-29-17:06800] PMIX ERROR: UNREACHABLE in file ../../../../../../../opal/mca/pmix/pmix3x/pmix/src/server/pmix_server.c at line 2193
+[n-62-29-17:06800] PMIX ERROR: UNREACHABLE in file ../../../../../../../opal/mca/pmix/pmix3x/pmix/src/server/pmix_server.c at line 2193
+[n-62-29-17:06800] PMIX ERROR: UNREACHABLE in file ../../../../../../../opal/mca/pmix/pmix3x/pmix/src/server/pmix_server.c at line 2193
+[n-62-29-17:06800] 5 more processes have sent help message help-mpi-api.txt / mpi-abort
+[n-62-29-17:06800] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

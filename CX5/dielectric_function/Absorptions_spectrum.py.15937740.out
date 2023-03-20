@@ -1,0 +1,2695 @@
+venv: /zhome/06/4/136859/dft_venv/bin/activate
+[1679314879.799012] [n-62-28-28:2428 :0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1679314879.799072] [n-62-28-28:2428 :0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1679314885.545470] [n-62-28-28:2430 :0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1679314885.545507] [n-62-28-28:2430 :0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1679314885.545453] [n-62-28-28:2439 :0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1679314885.545496] [n-62-28-28:2439 :0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1679314885.545522] [n-62-28-28:2431 :0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1679314885.545554] [n-62-28-28:2431 :0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1679314885.545543] [n-62-28-28:2429 :0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1679314885.545576] [n-62-28-28:2429 :0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1679314885.545583] [n-62-28-28:2432 :0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1679314885.545616] [n-62-28-28:2432 :0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1679314885.545671] [n-62-28-28:2433 :0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1679314885.545710] [n-62-28-28:2433 :0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1679314885.545554] [n-62-28-28:2434 :0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1679314885.545586] [n-62-28-28:2434 :0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1679314885.545689] [n-62-28-28:2435 :0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1679314885.545738] [n-62-28-28:2435 :0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1679314885.545547] [n-62-28-28:2437 :0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1679314885.545581] [n-62-28-28:2437 :0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1679314885.545754] [n-62-28-28:2436 :0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1679314885.545793] [n-62-28-28:2436 :0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1679314885.545924] [n-62-28-28:2438 :0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1679314885.545993] [n-62-28-28:2438 :0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+
+  ___ ___ ___ _ _ _  
+ |   |   |_  | | | | 
+ | | | | | . | | | | 
+ |__ |  _|___|_____|  22.8.1b1
+ |___|_|             
+
+User:   s183553@n-62-28-28
+Date:   Mon Mar 20 13:21:26 2023
+Arch:   x86_64
+Pid:    2428
+CWD:    /zhome/06/4/136859/dft_course/CX5/dielectric_function
+Python: 3.8.5
+gpaw:   /zhome/06/4/136859/dft_venv/gpaw/gpaw (3d6f5cf366)
+_gpaw:  /zhome/06/4/136859/dft_venv/gpaw/
+        _gpaw.cpython-38-x86_64-linux-gnu.so (3d6f5cf366)
+ase:    /zhome/06/4/136859/dft_venv/ase/ase (version 3.23.0b1-d4570ca33a)
+numpy:  /zhome/06/4/136859/dft_venv/lib/python3.8/site-packages/numpy (version 1.24.1)
+scipy:  /zhome/06/4/136859/dft_venv/lib/python3.8/site-packages/scipy (version 1.10.0)
+libxc:  4.3.4
+units:  Angstrom and eV
+cores: 12
+OpenMP: False
+OMP_NUM_THREADS: 1
+
+Input parameters:
+  kpts: [4 4 4]
+  mode: pw
+
+System changes: positions, numbers, cell, pbc, initial_charges, initial_magmoms 
+
+Initialize ...
+
+species:
+  Si:
+    name: Silicon
+    id: b152d83ba7c91a8f3191da15c74e1ae7
+    Z: 14.0
+    valence: 4
+    core: 10
+    charge: 0.0
+    file: /zhome/86/d/1666/PAW/gpaw-setups-0.9.20000/Si.LDA.gz
+    compensation charges: {type: gauss,
+                           rc: 0.33,
+                           lmax: 2}
+    cutoffs: {filter: 1.86,
+              core: 2.06}
+    valence states:
+      #              energy  rcut
+      - 3s(2.00)   -10.878   1.058
+      - 3p(2.00)    -4.162   1.058
+      -  s          16.334   1.058
+      -  p          23.049   1.058
+      -  d           0.000   1.058
+  
+    # Using partial waves for Si as LCAO basis
+
+Reference energy: -15717.426366  # eV
+
+Spin-paired calculation
+
+Convergence criteria:
+ Maximum [total energy] change in last 3 cyles: 0.0005 eV / valence electron
+ Maximum integral of absolute [dens]ity change: 0.0001 electrons / valence electron
+ Maximum integral of absolute [eigenst]ate change: 4e-08 eV^2 / valence electron
+ Maximum number of scf [iter]ations: 333
+ (Square brackets indicate name in SCF output, whereas a 'c' in
+ the SCF output indicates the quantity has converged.)
+
+Symmetries present (total): 24
+
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+Note: your k-points are not as symmetric as your crystal!
+
+64 k-points: 4 x 4 x 4 Monkhorst-Pack grid
+10 k-points in the irreducible part of the Brillouin zone
+       k-points in crystal coordinates                weights
+   0:     0.12500000    0.12500000   -0.12500000          6/64
+   1:     0.12500000    0.12500000    0.12500000          2/64
+   2:     0.37500000   -0.12500000   -0.12500000          6/64
+   3:     0.37500000    0.12500000   -0.37500000         12/64
+   4:     0.37500000    0.12500000   -0.12500000         12/64
+   5:     0.37500000    0.12500000    0.12500000          6/64
+   6:     0.37500000    0.37500000   -0.37500000          6/64
+   7:     0.37500000    0.37500000   -0.12500000          6/64
+   8:     0.37500000    0.37500000    0.12500000          6/64
+   9:     0.37500000    0.37500000    0.37500000          2/64
+
+Wave functions: Plane wave expansion
+  Cutoff energy: 340.000 eV
+  Number of coefficients (min, max): 567, 580
+  Pulay-stress correction: 0.000000 eV/Ang^3 (de/decut=0.000000)
+  Using FFTW library
+  ScaLapack parameters: grid=1x1, blocksize=None
+  Wavefunction extrapolation:
+    Improved wavefunction reuse through dual PAW basis 
+
+Occupation numbers: Fermi-Dirac:
+  width: 0.1000  # eV
+ 
+
+Eigensolver
+   Davidson(niter=2) 
+
+Densities:
+  Coarse grid: 18*18*18 grid
+  Fine grid: 36*36*36 grid
+  Total Charge: 0.000000 
+
+Density mixing:
+  Method: separate
+  Backend: pulay
+  Linear mixing parameter: 0.05
+  old densities: 5
+  Damping of long wavelength oscillations: 50 
+
+Hamiltonian:
+  XC and Coulomb potentials evaluated on a 36*36*36 grid
+  Using the LDA Exchange-Correlation functional
+  External potential:
+    NoExternalPotential
+ 
+
+Memory estimate:
+  Process memory now: 91.96 MiB
+  Calculator: 0.88 MiB
+    Density: 0.37 MiB
+      Arrays: 0.19 MiB
+      Localized functions: 0.10 MiB
+      Mixer: 0.07 MiB
+    Hamiltonian: 0.13 MiB
+      Arrays: 0.13 MiB
+      XC: 0.00 MiB
+      Poisson: 0.00 MiB
+      vbar: 0.00 MiB
+    Wavefunctions: 0.38 MiB
+      Arrays psit_nG: 0.06 MiB
+      Eigensolver: 0.03 MiB
+      Projections: 0.00 MiB
+      Projectors: 0.05 MiB
+      PW-descriptor: 0.24 MiB
+
+Total number of cores used: 12
+Parallelization over k-points: 2
+Domain decomposition: 3 x 2 x 1
+
+Number of atoms: 2
+Number of atomic orbitals: 8
+Number of bands in calculation: 8
+Number of valence electrons: 8
+Bands to converge: occupied
+
+... initialized
+
+Initializing position-dependent things.
+
+Density initialized from atomic densities
+Creating initial wave functions:
+  8 bands from LCAO basis set
+
+                    
+                    
+                    
+                    
+           Si       
+                    
+       Si           
+                    
+                    
+                    
+                    
+
+Positions:
+   0 Si     0.000000    0.000000    0.000000    ( 0.0000,  0.0000,  0.0000)
+   1 Si     1.357750    1.357750    1.357750    ( 0.0000,  0.0000,  0.0000)
+
+Unit cell:
+           periodic     x           y           z      points  spacing
+  1. axis:    yes    0.000000    2.715500    2.715500    18     0.1742
+  2. axis:    yes    2.715500    0.000000    2.715500    18     0.1742
+  3. axis:    yes    2.715500    2.715500    0.000000    18     0.1742
+
+  Lengths:   3.840297   3.840297   3.840297
+  Angles:   60.000000  60.000000  60.000000
+
+Effective grid spacing dv^(1/3) = 0.1901
+
+     iter     time        total  log10-change:
+                         energy  eigst   dens
+iter:   1 13:21:27   -12.049933
+iter:   2 13:21:27   -12.041896  -1.93  -0.80
+iter:   3 13:21:27   -12.447451  -1.06  -0.80
+iter:   4 13:21:27   -11.950854  -1.99  -0.64
+iter:   5 13:21:27   -11.916932  -2.99  -1.17
+iter:   6 13:21:27   -11.881052  -2.53  -1.30
+iter:   7 13:21:28   -11.880758  -4.43  -2.42
+iter:   8 13:21:28   -11.880793c -5.05  -2.91
+iter:   9 13:21:28   -11.880771c -6.45  -2.91
+iter:  10 13:21:28   -11.880761c -6.60  -3.16
+iter:  11 13:21:28   -11.880761c -8.40c -3.72
+iter:  12 13:21:28   -11.880760c -7.69c -3.76
+iter:  13 13:21:28   -11.880760c -9.04c -4.81c
+
+Converged after 13 iterations.
+
+Dipole moment: (-2.923955, -2.923955, -2.923955) |e|*Ang
+
+Energy contributions relative to reference atoms: (reference = -15717.426366)
+
+Kinetic:        +15.499809
+Potential:      -13.661938
+External:        +0.000000
+XC:             -13.696732
+Entropy (-ST):   -0.000879
+Local:           -0.021459
+--------------------------
+Free energy:    -11.881199
+Extrapolated:   -11.880760
+
+Showing only first 2 kpts
+ Kpt  Band  Eigenvalues  Occupancy
+  0     2      3.81309    2.00000
+  0     3      3.88003    2.00000
+  0     4      7.21528    0.00000
+  0     5      8.77036    0.00000
+
+  1     2      4.84447    1.98929
+  1     3      4.84447    1.98929
+  1     4      7.55666    0.00000
+  1     5      8.08775    0.00000
+
+
+Fermi level: 5.36691
+
+Gap: 1.085 eV
+Transition (v -> c):
+  (s=0, k=1, n=3, [0.12, 0.12, 0.12]) -> (s=0, k=7, n=4, [0.38, 0.38, -0.12])
+Writing to si.gpw (mode='all')
+
+Reading ground state calculation:
+  si.gpw
+Reading ground state calculation:
+  si.gpw
+Reading ground state calculation:
+  si.gpw
+Reading ground state calculation:
+  si.gpw
+Reading ground state calculation:
+  si.gpw
+Reading ground state calculation:
+  si.gpw
+Reading ground state calculation:
+  si.gpw
+Reading ground state calculation:
+  si.gpw
+Reading ground state calculation:
+  si.gpw
+Reading ground state calculation:
+  si.gpw
+Reading ground state calculation:
+  si.gpw
+Reading ground state calculation:
+  si.gpw
+Minimum eigenvalue:     -6.628 eV
+Maximum eigenvalue:     13.396 eV
+Minimum eigenvalue:     -6.628 eV
+Maximum eigenvalue:     13.396 eV
+Minimum eigenvalue:     -6.628 eV
+Maximum eigenvalue:     13.396 eV
+Minimum eigenvalue:     -6.628 eV
+Maximum eigenvalue:     13.396 eV
+Minimum eigenvalue:     -6.628 eV
+Maximum eigenvalue:     13.396 eV
+Minimum eigenvalue:     -6.628 eV
+Maximum eigenvalue:     13.396 eV
+Minimum eigenvalue:     -6.628 eV
+Maximum eigenvalue:     13.396 eV
+Minimum eigenvalue:     -6.628 eV
+Maximum eigenvalue:     13.396 eV
+Minimum eigenvalue:     -6.628 eV
+Maximum eigenvalue:     13.396 eV
+Minimum eigenvalue:     -6.628 eV
+Maximum eigenvalue:     13.396 eV
+Minimum eigenvalue:     -6.628 eV
+Maximum eigenvalue:     13.396 eV
+Minimum eigenvalue:     -6.628 eV
+Maximum eigenvalue:     13.396 eV
+Number of blocks: 1
+Number of blocks: 1
+Number of blocks: 1
+Number of blocks: 1
+Number of blocks: 1
+Number of blocks: 1
+Number of blocks: 1
+Number of blocks: 1
+Number of blocks: 1
+Number of blocks: 1
+Number of blocks: 1
+Number of blocks: 1
+NonLinearFrequencyDescriptor(from 0.000 to 20.039 eV, 220 points)
+NonLinearFrequencyDescriptor(from 0.000 to 20.039 eV, 220 points)
+NonLinearFrequencyDescriptor(from 0.000 to 20.039 eV, 220 points)
+NonLinearFrequencyDescriptor(from 0.000 to 20.039 eV, 220 points)
+NonLinearFrequencyDescriptor(from 0.000 to 20.039 eV, 220 points)
+NonLinearFrequencyDescriptor(from 0.000 to 20.039 eV, 220 points)
+NonLinearFrequencyDescriptor(from 0.000 to 20.039 eV, 220 points)
+NonLinearFrequencyDescriptor(from 0.000 to 20.039 eV, 220 points)
+NonLinearFrequencyDescriptor(from 0.000 to 20.039 eV, 220 points)
+NonLinearFrequencyDescriptor(from 0.000 to 20.039 eV, 220 points)
+NonLinearFrequencyDescriptor(from 0.000 to 20.039 eV, 220 points)
+NonLinearFrequencyDescriptor(from 0.000 to 20.039 eV, 220 points)
+Nonperiodic BCs:  [False False False]
+Nonperiodic BCs:  [False False False]
+Using integration method: PointIntegrator
+Nonperiodic BCs:  [False False False]
+Using integration method: PointIntegrator
+Nonperiodic BCs:  [False False False]
+Using integration method: PointIntegrator
+Nonperiodic BCs:  [False False False]
+Using integration method: PointIntegrator
+Nonperiodic BCs:  [False False False]
+Using integration method: PointIntegrator
+Nonperiodic BCs:  [False False False]
+Using integration method: PointIntegrator
+Using integration method: PointIntegrator
+Nonperiodic BCs:  [False False False]
+Using integration method: PointIntegrator
+Nonperiodic BCs:  [False False False]
+Using integration method: PointIntegrator
+Nonperiodic BCs:  [False False False]
+Using integration method: PointIntegrator
+Nonperiodic BCs:  [False False False]
+Using integration method: PointIntegrator
+Nonperiodic BCs:  [False False False]
+Using integration method: PointIntegrator
+Mon Mar 20 13:21:30 2023
+Called response.chi0.calculate with
+Mon Mar 20 13:21:30 2023
+Called response.chi0.calculate with
+    q_c: [0.000000, 0.000000, 0.000000]
+    Number of frequency points: 220
+    Planewave cutoff: 50.000000
+Mon Mar 20 13:21:30 2023
+Called response.chi0.calculate with
+    q_c: [0.000000, 0.000000, 0.000000]
+    Number of frequency points: 220
+    Planewave cutoff: 50.000000
+    Number of spins: 1
+    Number of spins: 1
+    Number of bands: 8
+    Number of kpoints: 64
+    Number of bands: 8
+    Number of kpoints: 64
+    Number of irredicible kpoints: 10
+    Number of planewaves: 27
+    Broadening (eta): 0.200000
+    world.size: 12
+Mon Mar 20 13:21:30 2023
+Called response.chi0.calculate with
+    q_c: [0.000000, 0.000000, 0.000000]
+    Number of frequency points: 220
+    Planewave cutoff: 50.000000
+    Number of spins: 1
+    Number of bands: 8
+    q_c: [0.000000, 0.000000, 0.000000]
+    Number of frequency points: 220
+    Planewave cutoff: 50.000000
+    Number of spins: 1
+    Number of bands: 8
+    Number of kpoints: 64
+Mon Mar 20 13:21:30 2023
+Called response.chi0.calculate with
+    Number of irredicible kpoints: 10
+    Number of planewaves: 27
+    Broadening (eta): 0.200000
+    world.size: 12
+    kncomm.size: 12
+    blockcomm.size: 1
+    Number of completely occupied states: 2
+    Number of partially occupied states: 5
+
+    q_c: [0.000000, 0.000000, 0.000000]
+Mon Mar 20 13:21:30 2023
+Called response.chi0.calculate with
+    q_c: [0.000000, 0.000000, 0.000000]
+    kncomm.size: 12
+    blockcomm.size: 1
+    Number of completely occupied states: 2
+    Number of partially occupied states: 5
+
+    Number of kpoints: 64
+    Number of irredicible kpoints: 10
+    Number of planewaves: 27
+    Broadening (eta): 0.200000
+    world.size: 12
+    Number of irredicible kpoints: 10
+    Number of planewaves: 27
+    Broadening (eta): 0.200000
+    world.size: 12
+    kncomm.size: 12
+    Memory estimate of potentially large arrays:
+        chi0_wGG: 2.447205 M / cpu
+        Occupied states: 0.088989 M / cpu
+    blockcomm.size: 1
+    Number of completely occupied states: 2
+    Number of partially occupied states: 5
+
+    Memory estimate of potentially large arrays:
+    Number of frequency points: 220
+    Planewave cutoff: 50.000000
+    Number of spins: 1
+    Number of bands: 8
+    Number of kpoints: 64
+    Number of irredicible kpoints: 10
+    Number of planewaves: 27
+Mon Mar 20 13:21:30 2023
+Called response.chi0.calculate with
+    q_c: [0.000000, 0.000000, 0.000000]
+    Number of frequency points: 220
+    Planewave cutoff: 50.000000
+    Number of spins: 1
+    Number of frequency points: 220
+    Planewave cutoff: 50.000000
+    Number of spins: 1
+    Number of bands: 8
+    Number of kpoints: 64
+    Number of irredicible kpoints: 10
+    Number of planewaves: 27
+    Memory estimate of potentially large arrays:
+        chi0_wGG: 2.447205 M / cpu
+        Occupied states: 0.088989 M / cpu
+    kncomm.size: 12
+    blockcomm.size: 1
+    Number of completely occupied states: 2
+    Number of partially occupied states: 5
+
+    Memory estimate of potentially large arrays:
+        chi0_wGG: 2.447205 M / cpu
+        Occupied states: 0.088989 M / cpu
+        chi0_wGG: 2.447205 M / cpu
+        Occupied states: 0.088989 M / cpu
+    Broadening (eta): 0.200000
+    world.size: 12
+    kncomm.size: 12
+    blockcomm.size: 1
+    Number of completely occupied states: 2
+    Number of partially occupied states: 5
+
+    Memory estimate of potentially large arrays:
+        chi0_wGG: 2.447205 M / cpu
+        Occupied states: 0.088989 M / cpu
+Mon Mar 20 13:21:30 2023
+Called response.chi0.calculate with
+    q_c: [0.000000, 0.000000, 0.000000]
+    Number of frequency points: 220
+    Planewave cutoff: 50.000000
+    Number of spins: 1
+    Number of bands: 8
+    Number of kpoints: 64
+    Number of irredicible kpoints: 10
+    Number of bands: 8
+    Number of kpoints: 64
+    Number of irredicible kpoints: 10
+    Number of planewaves: 27
+    Broadening (eta): 0.200000
+    world.size: 12
+    kncomm.size: 12
+    blockcomm.size: 1
+    Number of completely occupied states: 2
+    Broadening (eta): 0.200000
+    world.size: 12
+    kncomm.size: 12
+    blockcomm.size: 1
+    Number of completely occupied states: 2
+    Number of partially occupied states: 5
+
+    Memory estimate of potentially large arrays:
+        chi0_wGG: 2.447205 M / cpu
+Mon Mar 20 13:21:30 2023
+Called response.chi0.calculate with
+        Memory usage before allocation: 99.128906 M / cpu
+
+Mon Mar 20 13:21:30 2023
+Called response.chi0.calculate with
+    q_c: [0.000000, 0.000000, 0.000000]
+    Number of planewaves: 27
+    Broadening (eta): 0.200000
+    world.size: 12
+    kncomm.size: 12
+    blockcomm.size: 1
+    Number of completely occupied states: 2
+    Number of partially occupied states: 5
+
+    Number of partially occupied states: 5
+
+    Memory estimate of potentially large arrays:
+        chi0_wGG: 2.447205 M / cpu
+        Occupied states: 0.088989 M / cpu
+        Occupied states: 0.088989 M / cpu
+        Memory usage before allocation: 95.054688 M / cpu
+
+    q_c: [0.000000, 0.000000, 0.000000]
+    Number of frequency points: 220
+    Planewave cutoff: 50.000000
+    Number of spins: 1
+    Number of bands: 8
+    Number of kpoints: 64
+    Number of irredicible kpoints: 10
+    Number of planewaves: 27
+    Broadening (eta): 0.200000
+        Memory usage before allocation: 97.898438 M / cpu
+
+Mon Mar 20 13:21:30 2023
+Called response.chi0.calculate with
+    q_c: [0.000000, 0.000000, 0.000000]
+    Number of frequency points: 220
+    Planewave cutoff: 50.000000
+        Memory usage before allocation: 99.519531 M / cpu
+
+    Number of frequency points: 220
+    Planewave cutoff: 50.000000
+    Number of spins: 1
+    Number of bands: 8
+    Number of kpoints: 64
+    Number of irredicible kpoints: 10
+    Number of planewaves: 27
+    Broadening (eta): 0.200000
+    world.size: 12
+    Memory estimate of potentially large arrays:
+        chi0_wGG: 2.447205 M / cpu
+        Occupied states: 0.088989 M / cpu
+    world.size: 12
+    kncomm.size: 12
+    blockcomm.size: 1
+    Number of completely occupied states: 2
+    Number of partially occupied states: 5
+
+    Number of spins: 1
+    Number of bands: 8
+    Number of kpoints: 64
+    Number of irredicible kpoints: 10
+    Number of planewaves: 27
+    Broadening (eta): 0.200000
+    world.size: 12
+        Memory usage before allocation: 98.742188 M / cpu
+
+    kncomm.size: 12
+    blockcomm.size: 1
+    Number of completely occupied states: 2
+    Number of partially occupied states: 5
+
+    Memory estimate of potentially large arrays:
+        chi0_wGG: 2.447205 M / cpu
+        Occupied states: 0.088989 M / cpu
+        Memory usage before allocation: 98.796875 M / cpu
+
+    Memory estimate of potentially large arrays:
+        chi0_wGG: 2.447205 M / cpu
+        Occupied states: 0.088989 M / cpu
+        Memory usage before allocation: 96.277344 M / cpu
+
+    kncomm.size: 12
+    blockcomm.size: 1
+    Number of completely occupied states: 2
+    Number of partially occupied states: 5
+
+    Memory estimate of potentially large arrays:
+        chi0_wGG: 2.447205 M / cpu
+        Occupied states: 0.088989 M / cpu
+        Memory usage before allocation: 95.582031 M / cpu
+
+        Memory usage before allocation: 95.628906 M / cpu
+
+        Memory usage before allocation: 100.117188 M / cpu
+
+        Memory usage before allocation: 104.796875 M / cpu
+
+Mon Mar 20 13:21:30 2023
+Called response.chi0.calculate with
+    q_c: [0.000000, 0.000000, 0.000000]
+    Number of frequency points: 220
+    Planewave cutoff: 50.000000
+    Number of spins: 1
+    Number of bands: 8
+    Number of kpoints: 64
+    Number of irredicible kpoints: 10
+    Number of planewaves: 27
+    Broadening (eta): 0.200000
+    world.size: 12
+    kncomm.size: 12
+    blockcomm.size: 1
+    Number of completely occupied states: 2
+    Number of partially occupied states: 5
+
+    Memory estimate of potentially large arrays:
+        chi0_wGG: 2.447205 M / cpu
+        Occupied states: 0.088989 M / cpu
+        Memory usage before allocation: 97.050781 M / cpu
+
+Integrating response function.
+Integrating response function.
+Integrating response function.
+Integrating response function.
+Integrating response function.
+Integrating response function.
+Integrating response function.
+Integrating response function.
+Integrating response function.
+Integrating response function.
+Integrating response function.
+Integrating response function.
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+Integral kind: spectral function
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+Integral kind: spectral function
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+
+Integral kind: spectral function
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+Integral kind: spectral function
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+Integral kind: spectral function
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+Integral kind: spectral function
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+Integral kind: spectral function
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+Integral kind: spectral function
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+Integral kind: spectral function
+Distributing domain [10, 1] over 12 processes
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+Number of blocks: 1
+
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+0h0m0s / 0h0m0s (100%) |-----------------------------------|   ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+ 99 MB/core
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+Integral kind: spectral function
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+Integral kind: spectral function
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+Integral kind: spectral function
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  102 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  103 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  102 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  99 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  104 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  102 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  100 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  99 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  102 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  108 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  99 MB/core
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+Integral kind: spectral function wings
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+0h0m0s / 0h0m0s (100%) |-----------------------------------| 
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+ 105 MB/core
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+Integral kind: spectral function wings
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+Integral kind: spectral function wings
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+Integral kind: spectral function wings
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+Integral kind: spectral function wings
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+Integral kind: spectral function wings
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+Integral kind: spectral function wings
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+0h0m0s / 0h0m0s (100%) |-----------------------------------|   ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+ 104 MB/core
+Integral kind: spectral function wings
+Integral kind: spectral function wings
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+Integral kind: spectral function wings
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+Integral kind: spectral function wings
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+Integral kind: spectral function wings
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  106 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  104 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  107 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  108 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  103 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------| 0h0m0s / 0h0m0s (100%) |-----------------------------------|  103 MB/core
+ 104 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  105 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  102 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  111 MB/core
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+
+Integral kind: spectral function
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+0h0m0s / 0h0m0s (100%) |-----------------------------------|   ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+
+ 105 MB/core
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+Integral kind: spectral function
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+Integral kind: spectral function
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+Distributing domain [10, 1] over 12 processes
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+Number of blocks: 1
+
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+Integral kind: spectral function
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+Integral kind: spectral function
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+Distributing domain [10, 1] over 12 processes
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+Number of blocks: 1
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+Integral kind: spectral function
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+Integral kind: spectral function
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+0h0m0s / 0h0m0s (100%) |-----------------------------------|   ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+ 104 MB/core
+
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+Integral kind: spectral function
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+Integral kind: spectral function
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+Integral kind: spectral function
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+Point group included. Time reversal included. Disabled non-symmorphic symmetries. Found 48 allowed symmetries. 10 groups of equivalent kpoints. 84.375% reduction. 
+
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+  ( 1  0  0)  ( 1  0  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1 -1  0)  ( 1 -1  0)
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 0  1  0)  ( 0  0  1)  ( 0  1 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  0)
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 0  0  1)  ( 0  1  0)  ( 0  0 -1)  ( 0  1 -1)  ( 0 -1  0)  ( 0 -1  1)
+
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 0  1  0)  ( 0  1  0)  ( 0  1 -1)  ( 0  1 -1)  ( 0  0  1)  ( 0  0  1)
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 1  0  0)  ( 0  0  1)  ( 1  0 -1)  ( 0  0 -1)  ( 1  0  0)  ( 0  1  0)
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  ( 0  0  1)  ( 1  0  0)  ( 0  0 -1)  ( 1  0 -1)  ( 0  1  0)  ( 1  0  0)
+
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0  0 -1)  ( 0  0 -1)  ( 0 -1  1)  ( 0 -1  1)  ( 0 -1  0)  ( 0 -1  0)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+  ( 1  0 -1)  ( 0  1 -1)  ( 1 -1  0)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+  ( 0  1 -1)  ( 1  0 -1)  ( 0 -1  0)  ( 1 -1  0)  ( 0 -1  1)  ( 1 -1  0)
+
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  (-1  1  0)  (-1  1  0)  (-1  0  1)  (-1  0  1)  (-1  0  0)  (-1  0  0)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  0)  (-1  1  0)  (-1  0  1)
+
+  (-1  0  0)  (-1  0  1)  (-1  0  0)  (-1  1  0)  (-1  0  1)  (-1  1  0)
+
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  (-1  0  0)  (-1  0  0)  (-1  0  1)  (-1  0  1)  (-1  1  0)  (-1  1  0)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 0 -1  0)  ( 0  0 -1)  ( 0 -1  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1  0)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+  ( 0  0 -1)  ( 0 -1  0)  ( 0  0  1)  ( 0 -1  1)  ( 0  1  0)  ( 0  1 -1)
+
+  ( 0 -1  0)  ( 0 -1  0)  ( 0 -1  1)  ( 0 -1  1)  ( 0  0 -1)  ( 0  0 -1)
+  (-1  0  0)  ( 0  0 -1)  (-1  0  1)  ( 0  0  1)  (-1  0  0)  ( 0 -1  0)
+  ( 0  0 -1)  (-1  0  0)  ( 0  0  1)  (-1  0  1)  ( 0 -1  0)  (-1  0  0)
+
+Integral kind: spectral function
+  ( 0  0  1)  ( 0  0  1)  ( 0  1 -1)  ( 0  1 -1)  ( 0  1  0)  ( 0  1  0)
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+  (-1  0  1)  ( 0 -1  1)  (-1  1  0)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)
+  ( 0 -1  1)  (-1  0  1)  ( 0  1  0)  (-1  1  0)  ( 0  1 -1)  (-1  1  0)
+
+  ( 1 -1  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1  0 -1)  ( 1  0  0)  ( 1  0  0)
+  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)
+  ( 1  0  0)  ( 1  0 -1)  ( 1  0  0)  ( 1 -1  0)  ( 1  0 -1)  ( 1 -1  0)
+
+Integral kind: spectral function
+Distributing domain [10, 1] over 12 processes
+Number of blocks: 1
+0h0m0s / 0h0m0s (100%) |-----------------------------------| 0h0m0s / 0h0m0s (100%) |-----------------------------------|  111 MB/core
+ 105 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------| 0h0m0s / 0h0m0s (100%) |-----------------------------------| 0h0m0s / 0h0m0s (100%) |-----------------------------------| 0h0m0s / 0h0m0s (100%) |-----------------------------------| 0h0m0s / 0h0m0s (100%) |-----------------------------------| 0h0m0s / 0h0m0s (100%) |-----------------------------------|  104 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  108 MB/core
+ 106 MB/core
+ 108 MB/core
+ 104 MB/core
+ 103 MB/core
+ 103 MB/core
+0h0m0s / 0h0m0s (100%) |-----------------------------------|  102 MB/core
+Plasma frequency:
+Plasma frequency:
+[[0.4+0.j 0. +0.j 0. -0.j]
+ [0. +0.j 0.4+0.j 0. -0.j]
+ [0. -0.j 0. -0.j 0.4+0.j]]
+[[0.4+0.j 0. +0.j 0. -0.j]
+ [0. +0.j 0.4+0.j 0. -0.j]
+ [0. -0.j 0. -0.j 0.4+0.j]]
+Timing:                     incl.     excl.
+--------------------------------------------------
+Timing:                     incl.     excl.
+--------------------------------------------------
+Calculate CHI_0:            0.675     0.465  55.3% |---------------------|
+ Get kpoints:               0.085     0.001   0.1% |
+  Group kpoints:            0.001     0.001   0.1% |
+Calculate CHI_0:            0.674     0.448  53.6% |--------------------|
+ Get kpoints:               0.085     0.001   0.1% |
+  Initialize:               0.083     0.010   1.2% |
+   Analyze:                 0.001     0.000   0.0% |
+    Group kpoints:          0.001     0.001   0.1% |
+   Analyze symmetries.:     0.001     0.001   0.1% |
+  Group kpoints:            0.001     0.001   0.1% |
+  Initialize:               0.083     0.007   0.9% |
+   Analyze:                 0.001     0.000   0.0% |
+    Group kpoints:          0.001     0.001   0.1% |
+   Initialize_G_maps:       0.071     0.071   8.4% |--|
+ Hilbert transform:         0.054     0.054   6.4% |--|
+ symmetrize_wGG:            0.016     0.016   1.8% ||
+ symmetrize_wvv:            0.006     0.006   0.7% |
+ symmetrize_wxvG:           0.049     0.049   5.8% |-|
+   Analyze symmetries.:     0.001     0.001   0.1% |
+   Initialize_G_maps:       0.074     0.074   8.8% |---|
+ Hilbert transform:         0.060     0.060   7.2% |--|
+ symmetrize_wGG:            0.016     0.016   2.0% ||
+Read ground state:          0.133     0.133  15.8% |-----|
+Other:                      0.034     0.034   4.0% |-|
+--------------------------------------------------
+Plasma frequency:
+ symmetrize_wvv:            0.007     0.007   0.8% |
+ symmetrize_wxvG:           0.058     0.058   6.9% |--|
+Read ground state:          0.155     0.155  18.5% |------|
+Other:                      0.008     0.008   1.0% |
+--------------------------------------------------
+Total:                                0.837 100.0%
+
+Mon Mar 20 13:21:31 2023
+Plasma frequency:
+Plasma frequency:
+Plasma frequency:
+Total:                                0.841 100.0%
+
+Mon Mar 20 13:21:31 2023
+Plasma frequency:
+Plasma frequency:
+Plasma frequency:
+Plasma frequency:
+Plasma frequency:
+Plasma frequency:
+[[0.4+0.j 0. +0.j 0. -0.j]
+ [0. +0.j 0.4+0.j 0. -0.j]
+ [0. -0.j 0. -0.j 0.4+0.j]]
+[[0.4+0.j 0. +0.j 0. -0.j]
+ [0. +0.j 0.4+0.j 0. -0.j]
+ [0. -0.j 0. -0.j 0.4+0.j]]
+[[0.4+0.j 0. +0.j 0. -0.j]
+ [0. +0.j 0.4+0.j 0. -0.j]
+ [0. -0.j 0. -0.j 0.4+0.j]][[0.4+0.j 0. +0.j 0. -0.j]
+ [0. +0.j 0.4+0.j 0. -0.j]
+ [0. -0.j 0. -0.j 0.4+0.j]]
+
+[[0.4+0.j 0. +0.j 0. -0.j]
+ [0. +0.j 0.4+0.j 0. -0.j]
+ [0. -0.j 0. -0.j 0.4+0.j]]
+[[0.4+0.j 0. +0.j 0. -0.j]
+ [0. +0.j 0.4+0.j 0. -0.j]
+ [0. -0.j 0. -0.j 0.4+0.j]]
+[[0.4+0.j 0. +0.j 0. -0.j]
+ [0. +0.j 0.4+0.j 0. -0.j]
+ [0. -0.j 0. -0.j 0.4+0.j]]
+[[0.4+0.j 0. +0.j 0. -0.j]
+ [0. +0.j 0.4+0.j 0. -0.j]
+ [0. -0.j 0. -0.j 0.4+0.j]]
+Timing:                                    incl.     excl.
+-----------------------------------------------------------------
+[[0.4+0.j 0. +0.j 0. -0.j]
+ [0. +0.j 0.4+0.j 0. -0.j]
+ [0. -0.j 0. -0.j 0.4+0.j]]
+Timing:                                    incl.     excl.
+-----------------------------------------------------------------
+Timing:                                    incl.     excl.
+-----------------------------------------------------------------
+Timing:                                    incl.     excl.
+-----------------------------------------------------------------
+Calculate CHI_0:                           0.676     0.298  35.3% |-------------|
+Calculate CHI_0:                           0.676     0.293  34.8% |-------------|
+ CHI_0 intraband update:                   0.000     0.000   0.0% |
+ CHI_0 intraband update:                   0.000     0.000   0.0% |
+ CHI_0 optical limit hilbert-update:       0.001     0.001   0.2% |
+ CHI_0 optical limit hilbert-update:       0.001     0.001   0.1% |
+ CHI_0 spectral function update (new):     0.001     0.001   0.1% |
+ Get a k-point:                            0.001     0.000   0.0% |
+ CHI_0 spectral function update (new):     0.001     0.001   0.1% |
+ Get a k-point:                            0.001     0.000   0.0% |
+Calculate CHI_0:                           0.676     0.291  34.7% |-------------|
+ CHI_0 intraband update:                   0.000     0.000   0.0% |
+ CHI_0 optical limit hilbert-update:       0.001     0.001   0.2% |
+Timing:                                    incl.     excl.
+-----------------------------------------------------------------
+Calculate CHI_0:                           0.676     0.295  35.2% |-------------|
+ CHI_0 intraband update:                   0.000     0.000   0.0% |
+ CHI_0 optical limit hilbert-update:       0.001     0.001   0.1% |
+ CHI_0 spectral function update (new):     0.001     0.001   0.1% |
+ Get a k-point:                            0.001     0.000   0.0% |
+Timing:                                    incl.     excl.
+-----------------------------------------------------------------
+  Load projections:                        0.000     0.000   0.0% |
+  load wfs:                                0.001     0.001   0.1% |
+ Get eigenvalues:                          0.000     0.000   0.1% |
+ Get kpoints:                              0.079     0.001   0.1% |
+  Load projections:                        0.000     0.000   0.0% |
+  load wfs:                                0.001     0.001   0.1% |
+ Get eigenvalues:                          0.001     0.001   0.1% |
+ Get kpoints:                              0.083     0.001   0.1% |
+  Group kpoints:                           0.001     0.001   0.1% |
+  Initialize:                              0.081     0.007   0.8% |
+ CHI_0 spectral function update (new):     0.001     0.001   0.1% |
+ Get a k-point:                            0.001     0.000   0.0% |
+  Load projections:                        0.000     0.000   0.0% |
+  load wfs:                                0.001     0.001   0.1% |
+ Get eigenvalues:                          0.001     0.001   0.1% |
+ Get kpoints:                              0.086     0.001   0.1% |
+Timing:                                    incl.     excl.
+-----------------------------------------------------------------
+Timing:                                    incl.     excl.
+-----------------------------------------------------------------
+  Load projections:                        0.000     0.000   0.0% |
+  load wfs:                                0.001     0.001   0.1% |
+ Get eigenvalues:                          0.001     0.001   0.1% |
+ Get kpoints:                              0.082     0.001   0.1% |
+  Group kpoints:                           0.001     0.001   0.1% |
+  Initialize:                              0.080     0.007   0.8% |
+  Group kpoints:                           0.001     0.001   0.1% |
+  Initialize:                              0.078     0.007   0.8% |
+   Analyze:                                0.001     0.000   0.0% |
+    Group kpoints:                         0.001     0.001   0.1% |
+   Analyze symmetries.:                    0.001     0.001   0.1% |
+   Initialize_G_maps:                      0.069     0.069   8.2% |--|
+Calculate CHI_0:                           0.676     0.310  36.6% |--------------|
+ CHI_0 intraband update:                   0.000     0.000   0.0% |
+ CHI_0 optical limit hilbert-update:       0.001     0.001   0.1% |
+ CHI_0 spectral function update (new):     0.001     0.001   0.1% |
+ Get a k-point:                            0.001     0.000   0.0% |
+  Load projections:                        0.000     0.000   0.0% |
+   Analyze:                                0.001     0.000   0.0% |
+    Group kpoints:                         0.001     0.001   0.1% |
+   Analyze symmetries.:                    0.001     0.001   0.1% |
+   Initialize_G_maps:                      0.072     0.072   8.6% |--|
+ Get matrix element:                       0.056     0.001   0.1% |
+  Get kpoint pair:                         0.039     0.000   0.0% |
+   Analyze:                                0.001     0.000   0.0% |
+    Group kpoints:                         0.001     0.001   0.1% |
+   Analyze symmetries.:                    0.001     0.001   0.1% |
+   Initialize_G_maps:                      0.073     0.073   8.6% |--|
+ Get matrix element:                       0.055     0.001   0.1% |
+  Get kpoint pair:                         0.038     0.000   0.0% |
+   fft indices:                            0.000     0.000   0.0% |
+   get k-points:                           0.038     0.000   0.0% |
+    Get a k-point:                         0.038     0.031   3.7% ||
+  Group kpoints:                           0.001     0.001   0.1% |
+  Initialize:                              0.085     0.007   0.8% |
+   Analyze:                                0.001     0.000   0.0% |
+    Group kpoints:                         0.001     0.001   0.1% |
+   Analyze symmetries.:                    0.001     0.001   0.1% |
+   Initialize_G_maps:                      0.076     0.076   9.1% |---|
+ Get matrix element:                       0.056     0.001   0.1% |
+  Get kpoint pair:                         0.039     0.000   0.0% |
+Calculate CHI_0:                           0.676     0.292  34.7% |-------------|
+ CHI_0 intraband update:                   0.000     0.000   0.0% |
+ CHI_0 optical limit hilbert-update:       0.001     0.001   0.2% |
+ CHI_0 spectral function update (new):     0.001     0.001   0.1% |
+ Get a k-point:                            0.001     0.000   0.0% |
+  Load projections:                        0.000     0.000   0.0% |
+  load wfs:                                0.001     0.001   0.1% |
+ Get eigenvalues:                          0.001     0.001   0.1% |
+ Get kpoints:                              0.085     0.001   0.1% |
+  Group kpoints:                           0.001     0.001   0.1% |
+Calculate CHI_0:                           0.676     0.283  33.8% |-------------|
+ CHI_0 intraband update:                   0.000     0.000   0.0% |
+ CHI_0 optical limit hilbert-update:       0.001     0.001   0.2% |
+ CHI_0 spectral function update (new):     0.001     0.001   0.1% |
+ Get a k-point:                            0.001     0.000   0.1% |
+  Load projections:                        0.000     0.000   0.0% |
+Calculate CHI_0:                           0.676     0.292  34.7% |-------------|
+ CHI_0 intraband update:                   0.000     0.000   0.0% |
+ CHI_0 optical limit hilbert-update:       0.001     0.001   0.2% |
+ CHI_0 spectral function update (new):     0.001     0.001   0.1% |
+ Get a k-point:                            0.001     0.000   0.0% |
+  Load projections:                        0.000     0.000   0.0% |
+  load wfs:                                0.001     0.001   0.1% |
+ Get eigenvalues:                          0.001     0.001   0.1% |
+ Get kpoints:                              0.087     0.001   0.1% |
+ Get matrix element:                       0.055     0.001   0.1% |
+  Get kpoint pair:                         0.037     0.000   0.0% |
+   fft indices:                            0.000     0.000   0.0% |
+   get k-points:                           0.037     0.000   0.0% |
+    Get a k-point:                         0.037     0.031   3.6% ||
+     Load projections:                     0.000     0.000   0.0% |
+     load wfs:                             0.006     0.006   0.7% |
+  Group kpoints:                           0.000     0.000   0.0% |
+  Group kpoints:                           0.001     0.001   0.1% |
+  Initialize:                              0.085     0.008   0.9% |
+   Analyze:                                0.001     0.000   0.0% |
+  load wfs:                                0.001     0.001   0.1% |
+ Get eigenvalues:                          0.000     0.000   0.1% |
+ Get kpoints:                              0.080     0.001   0.1% |
+  Group kpoints:                           0.001     0.001   0.1% |
+  Initialize:                              0.078     0.006   0.7% |
+   Analyze:                                0.001     0.000   0.0% |
+    Group kpoints:                         0.001     0.001   0.1% |
+   fft indices:                            0.000     0.000   0.0% |
+   get k-points:                           0.039     0.000   0.0% |
+    Get a k-point:                         0.039     0.032   3.8% |-|
+     Load projections:                     0.000     0.000   0.0% |
+     load wfs:                             0.006     0.006   0.8% |
+  Group kpoints:                           0.000     0.000   0.0% |
+     Load projections:                     0.000     0.000   0.0% |
+     load wfs:                             0.006     0.006   0.7% |
+  Group kpoints:                           0.000     0.000   0.0% |
+  get_optical_pair_density_head:           0.008     0.000   0.1% |
+   Optical limit:                          0.008     0.003   0.3% |
+    Derivatives:                           0.005     0.005   0.6% |
+   fft indices:                            0.000     0.000   0.0% |
+   get k-points:                           0.038     0.000   0.0% |
+    Get a k-point:                         0.038     0.032   3.8% |-|
+     Load projections:                     0.000     0.000   0.0% |
+     load wfs:                             0.006     0.006   0.7% |
+  Group kpoints:                           0.000     0.000   0.0% |
+  Initialize:                              0.083     0.011   1.3% ||
+   Analyze:                                0.001     0.000   0.0% |
+    Group kpoints:                         0.001     0.001   0.1% |
+   Analyze symmetries.:                    0.001     0.001   0.1% |
+   Initialize_G_maps:                      0.071     0.071   8.4% |--|
+ Get matrix element:                       0.055     0.001   0.1% |
+  load wfs:                                0.001     0.001   0.1% |
+ Get eigenvalues:                          0.001     0.001   0.1% |
+ Get kpoints:                              0.097     0.001   0.1% |
+  Group kpoints:                           0.001     0.001   0.1% |
+  Initialize:                              0.095     0.009   1.0% |
+   Analyze:                                0.001     0.000   0.0% |
+  get_optical_pair_density_head:           0.008     0.000   0.0% |
+   Optical limit:                          0.008     0.003   0.3% |
+    Derivatives:                           0.005     0.005   0.6% |
+  get_pair_density:                        0.008     0.000   0.0% |
+   conj:                                   0.000     0.000   0.0% |
+   paw:                                    0.008     0.000   0.1% |
+    Group kpoints:                         0.001     0.001   0.1% |
+   Analyze symmetries.:                    0.001     0.001   0.1% |
+   Initialize_G_maps:                      0.084     0.084  10.1% |---|
+ Get matrix element:                       0.057     0.001   0.1% |
+    Group kpoints:                         0.001     0.001   0.1% |
+   Analyze symmetries.:                    0.001     0.001   0.1% |
+   Initialize_G_maps:                      0.075     0.075   8.9% |---|
+ Get matrix element:                       0.055     0.001   0.1% |
+  Get kpoint pair:                         0.038     0.000   0.0% |
+   fft indices:                            0.000     0.000   0.0% |
+   get k-points:                           0.038     0.000   0.0% |
+    Get a k-point:                         0.038     0.031   3.7% ||
+   Analyze symmetries.:                    0.001     0.001   0.1% |
+   Initialize_G_maps:                      0.070     0.070   8.3% |--|
+ Get matrix element:                       0.053     0.001   0.1% |
+  Get kpoint pair:                         0.036     0.000   0.0% |
+   fft indices:                            0.000     0.000   0.0% |
+   get k-points:                           0.036     0.000   0.0% |
+    Get a k-point:                         0.036     0.030   3.6% ||
+     Load projections:                     0.000     0.000   0.0% |
+  get_optical_pair_density_head:           0.008     0.000   0.1% |
+   Optical limit:                          0.008     0.003   0.3% |
+    Derivatives:                           0.005     0.005   0.6% |
+  get_pair_density:                        0.008     0.000   0.0% |
+   conj:                                   0.000     0.000   0.0% |
+   paw:                                    0.008     0.000   0.1% |
+    Calculate pair-densities:              0.008     0.001   0.1% |
+     fft:                                  0.006     0.006   0.8% |
+     gemm:                                 0.000     0.000   0.0% |
+  get_pair_density:                        0.008     0.000   0.0% |
+   conj:                                   0.000     0.000   0.0% |
+   paw:                                    0.008     0.000   0.1% |
+    Calculate pair-densities:              0.008     0.001   0.1% |
+     fft:                                  0.006     0.006   0.8% |
+     gemm:                                 0.000     0.000   0.0% |
+ Group kpoints:                            0.000     0.000   0.0% |
+ Hilbert transform:                        0.059     0.059   7.0% |--|
+ Intraband:                                0.097     0.090  10.7% |---|
+  get_optical_pair_density_head:           0.008     0.000   0.1% |
+   Optical limit:                          0.008     0.003   0.3% |
+    Derivatives:                           0.005     0.005   0.6% |
+  get_pair_density:                        0.009     0.000   0.0% |
+   conj:                                   0.000     0.000   0.0% |
+   paw:                                    0.008     0.000   0.1% |
+    Calculate pair-densities:              0.008     0.001   0.2% |
+     fft:                                  0.006     0.006   0.8% |
+     gemm:                                 0.000     0.000   0.0% |
+ Group kpoints:                            0.000     0.000   0.0% |
+  Get kpoint pair:                         0.037     0.000   0.0% |
+   fft indices:                            0.000     0.000   0.0% |
+   get k-points:                           0.037     0.000   0.0% |
+    Get a k-point:                         0.037     0.030   3.6% ||
+     Load projections:                     0.000     0.000   0.0% |
+     load wfs:                             0.006     0.006   0.7% |
+  Group kpoints:                           0.000     0.000   0.0% |
+  get_optical_pair_density_head:           0.008     0.000   0.1% |
+   Optical limit:                          0.008     0.003   0.3% |
+    Derivatives:                           0.005     0.005   0.6% |
+    Calculate pair-densities:              0.008     0.001   0.1% |
+     fft:                                  0.006     0.006   0.7% |
+     gemm:                                 0.000     0.000   0.0% |
+ Group kpoints:                            0.000     0.000   0.0% |
+ Hilbert transform:                        0.058     0.058   6.8% |--|
+ Intraband:                                0.098     0.091  10.8% |---|
+  Derivatives:                             0.007     0.007   0.8% |
+ symmetrize_wGG:                           0.016     0.016   1.8% ||
+ symmetrize_wvv:                           0.008     0.008   0.9% |
+Timing:                                    incl.     excl.
+-----------------------------------------------------------------
+  get_pair_density:                        0.009     0.000   0.0% |
+   conj:                                   0.000     0.000   0.0% |
+   paw:                                    0.009     0.000   0.1% |
+    Calculate pair-densities:              0.008     0.001   0.2% |
+     fft:                                  0.007     0.007   0.8% |
+  Get kpoint pair:                         0.038     0.000   0.0% |
+   fft indices:                            0.000     0.000   0.0% |
+   get k-points:                           0.038     0.000   0.0% |
+    Get a k-point:                         0.038     0.031   3.8% |-|
+     Load projections:                     0.000     0.000   0.0% |
+     load wfs:                             0.006     0.006   0.8% |
+  Group kpoints:                           0.000     0.000   0.0% |
+  get_optical_pair_density_head:           0.010     0.000   0.1% |
+   Optical limit:                          0.009     0.003   0.3% |
+    Derivatives:                           0.006     0.006   0.7% |
+     Load projections:                     0.000     0.000   0.0% |
+     load wfs:                             0.006     0.006   0.7% |
+  Group kpoints:                           0.000     0.000   0.0% |
+  get_optical_pair_density_head:           0.008     0.000   0.1% |
+   Optical limit:                          0.008     0.003   0.3% |
+    Derivatives:                           0.005     0.005   0.6% |
+  get_pair_density:                        0.009     0.000   0.0% |
+   conj:                                   0.000     0.000   0.0% |
+   paw:                                    0.008     0.000   0.1% |
+    Calculate pair-densities:              0.008     0.001   0.1% |
+     load wfs:                             0.006     0.006   0.7% |
+  Group kpoints:                           0.000     0.000   0.0% |
+  get_optical_pair_density_head:           0.008     0.000   0.0% |
+   Optical limit:                          0.007     0.002   0.3% |
+    Derivatives:                           0.005     0.005   0.6% |
+  get_pair_density:                        0.008     0.000   0.0% |
+   conj:                                   0.000     0.000   0.0% |
+   paw:                                    0.008     0.000   0.1% |
+    Calculate pair-densities:              0.007     0.001   0.1% |
+     fft:                                  0.006     0.006   0.7% |
+ Group kpoints:                            0.000     0.000   0.0% |
+ Hilbert transform:                        0.056     0.056   6.7% |--|
+ Intraband:                                0.097     0.091  10.8% |---|
+  Derivatives:                             0.007     0.007   0.8% |
+ symmetrize_wGG:                           0.016     0.016   1.9% ||
+ symmetrize_wvv:                           0.008     0.008   0.9% |
+ symmetrize_wxvG:                          0.062     0.062   7.3% |--|
+Read ground state:                         0.153     0.153  18.3% |------|
+Other:                                     0.008     0.008   1.0% |
+-----------------------------------------------------------------
+  Derivatives:                             0.007     0.007   0.8% |
+ symmetrize_wGG:                           0.016     0.016   1.9% ||
+ symmetrize_wvv:                           0.008     0.008   0.9% |
+ symmetrize_wxvG:                          0.061     0.061   7.3% |--|
+Read ground state:                         0.154     0.154  18.3% |------|
+Other:                                     0.011     0.011   1.3% ||
+-----------------------------------------------------------------
+Total:                                               0.841 100.0%
+
+ Hilbert transform:                        0.056     0.056   6.7% |--|
+ Intraband:                                0.096     0.089  10.6% |---|
+  Derivatives:                             0.007     0.007   0.8% |
+ symmetrize_wGG:                           0.016     0.016   1.9% ||
+ symmetrize_wvv:                           0.008     0.008   0.9% |
+ symmetrize_wxvG:                          0.062     0.062   7.4% |--|
+Read ground state:                         0.159     0.159  18.9% |-------|
+Other:                                     0.004     0.004   0.5% |
+-----------------------------------------------------------------
+ symmetrize_wxvG:                          0.061     0.061   7.2% |--|
+Read ground state:                         0.164     0.164  19.4% |-------|
+Other:                                     0.005     0.005   0.6% |
+-----------------------------------------------------------------
+Total:                                               0.845 100.0%
+
+Mon Mar 20 13:21:31 2023
+Total:                                               0.839 100.0%
+
+Mon Mar 20 13:21:31 2023
+Calculate CHI_0:                           0.677     0.305  36.1% |-------------|
+ CHI_0 intraband update:                   0.000     0.000   0.0% |
+ CHI_0 optical limit hilbert-update:       0.001     0.001   0.2% |
+ CHI_0 spectral function update (new):     0.001     0.001   0.1% |
+ Get a k-point:                            0.001     0.000   0.0% |
+  Load projections:                        0.000     0.000   0.0% |
+  load wfs:                                0.001     0.001   0.1% |
+     gemm:                                 0.000     0.000   0.0% |
+ Group kpoints:                            0.000     0.000   0.0% |
+ Hilbert transform:                        0.059     0.059   7.0% |--|
+ Intraband:                                0.095     0.089  10.5% |---|
+  Derivatives:                             0.007     0.007   0.8% |
+ symmetrize_wGG:                           0.016     0.016   1.9% ||
+ symmetrize_wvv:                           0.008     0.008   0.9% |
+  get_pair_density:                        0.009     0.000   0.0% |
+   conj:                                   0.000     0.000   0.0% |
+   paw:                                    0.008     0.000   0.1% |
+    Calculate pair-densities:              0.008     0.001   0.2% |
+     fft:                                  0.006     0.006   0.8% |
+     gemm:                                 0.000     0.000   0.0% |
+ Group kpoints:                            0.000     0.000   0.0% |
+ Hilbert transform:                        0.061     0.061   7.2% |--|
+     fft:                                  0.006     0.006   0.8% |
+     gemm:                                 0.000     0.000   0.0% |
+ Group kpoints:                            0.000     0.000   0.0% |
+ Hilbert transform:                        0.058     0.058   6.8% |--|
+ Intraband:                                0.096     0.089  10.6% |---|
+  Derivatives:                             0.007     0.007   0.8% |
+ symmetrize_wGG:                           0.016     0.016   1.9% ||
+ symmetrize_wvv:                           0.008     0.008   0.9% |
+     gemm:                                 0.000     0.000   0.0% |
+ Group kpoints:                            0.000     0.000   0.0% |
+ Hilbert transform:                        0.053     0.053   6.3% |--|
+ Intraband:                                0.098     0.091  10.8% |---|
+  Derivatives:                             0.007     0.007   0.8% |
+ symmetrize_wGG:                           0.015     0.015   1.8% ||
+ symmetrize_wvv:                           0.008     0.008   0.9% |
+ symmetrize_wxvG:                          0.056     0.056   6.6% |--|
+Total:                                               0.838 100.0%
+
+Mon Mar 20 13:21:31 2023
+Mon Mar 20 13:21:31 2023
+ Get eigenvalues:                          0.001     0.001   0.1% |
+ Get kpoints:                              0.095     0.001   0.1% |
+  Group kpoints:                           0.001     0.001   0.1% |
+  Initialize:                              0.093     0.009   1.1% |
+   Analyze:                                0.001     0.000   0.0% |
+    Group kpoints:                         0.001     0.001   0.1% |
+   Analyze symmetries.:                    0.001     0.001   0.1% |
+ symmetrize_wxvG:                          0.062     0.062   7.4% |--|
+Read ground state:                         0.148     0.148  17.6% |------|
+Other:                                     0.018     0.018   2.1% ||
+-----------------------------------------------------------------
+Total:                                               0.842 100.0%
+
+Mon Mar 20 13:21:31 2023
+ Intraband:                                0.089     0.083  10.0% |---|
+  Derivatives:                             0.005     0.005   0.6% |
+ symmetrize_wGG:                           0.016     0.016   1.9% ||
+ symmetrize_wvv:                           0.008     0.008   1.0% |
+ symmetrize_wxvG:                          0.061     0.061   7.3% |--|
+Read ground state:                         0.156     0.156  18.6% |------|
+ symmetrize_wxvG:                          0.061     0.061   7.3% |--|
+Read ground state:                         0.159     0.159  18.9% |-------|
+Other:                                     0.005     0.005   0.6% |
+-----------------------------------------------------------------
+Total:                                               0.840 100.0%
+
+Mon Mar 20 13:21:31 2023
+Read ground state:                         0.135     0.135  15.9% |-----|
+Other:                                     0.035     0.035   4.1% |-|
+-----------------------------------------------------------------
+Total:                                               0.846 100.0%
+
+Mon Mar 20 13:21:31 2023
+   Initialize_G_maps:                      0.081     0.081   9.6% |---|
+ Get matrix element:                       0.053     0.001   0.1% |
+  Get kpoint pair:                         0.035     0.000   0.0% |
+   fft indices:                            0.000     0.000   0.0% |
+   get k-points:                           0.035     0.000   0.0% |
+Other:                                     0.005     0.005   0.6% |
+-----------------------------------------------------------------
+Total:                                               0.837 100.0%
+
+Mon Mar 20 13:21:31 2023
+    Get a k-point:                         0.035     0.029   3.4% ||
+     Load projections:                     0.000     0.000   0.0% |
+     load wfs:                             0.006     0.006   0.8% |
+  Group kpoints:                           0.000     0.000   0.0% |
+  get_optical_pair_density_head:           0.008     0.000   0.1% |
+   Optical limit:                          0.007     0.002   0.3% |
+    Derivatives:                           0.005     0.005   0.6% |
+  get_pair_density:                        0.009     0.000   0.0% |
+   conj:                                   0.000     0.000   0.0% |
+   paw:                                    0.008     0.000   0.1% |
+    Calculate pair-densities:              0.008     0.001   0.2% |
+     fft:                                  0.006     0.006   0.8% |
+     gemm:                                 0.000     0.000   0.0% |
+ Group kpoints:                            0.000     0.000   0.0% |
+ Hilbert transform:                        0.058     0.058   6.8% |--|
+ Intraband:                                0.090     0.085  10.0% |---|
+  Derivatives:                             0.005     0.005   0.6% |
+ symmetrize_wGG:                           0.015     0.015   1.8% ||
+ symmetrize_wvv:                           0.008     0.008   0.9% |
+ symmetrize_wxvG:                          0.050     0.050   5.9% |-|
+Read ground state:                         0.143     0.143  16.9% |------|
+Other:                                     0.025     0.025   3.0% ||
+-----------------------------------------------------------------
+Total:                                               0.845 100.0%
+
+Mon Mar 20 13:21:31 2023
+[[0.4+0.j 0. +0.j 0. -0.j]
+ [0. +0.j 0.4+0.j 0. -0.j]
+ [0. -0.j 0. -0.j 0.4+0.j]]
+Timing:                                    incl.     excl.
+-----------------------------------------------------------------
+Calculate CHI_0:                           0.679     0.305  36.0% |-------------|
+ CHI_0 intraband update:                   0.000     0.000   0.0% |
+ CHI_0 optical limit hilbert-update:       0.001     0.001   0.1% |
+ CHI_0 spectral function update (new):     0.001     0.001   0.1% |
+ Get a k-point:                            0.001     0.000   0.0% |
+  Load projections:                        0.000     0.000   0.0% |
+  load wfs:                                0.001     0.001   0.1% |
+ Get eigenvalues:                          0.001     0.001   0.1% |
+ Get kpoints:                              0.086     0.001   0.1% |
+  Group kpoints:                           0.001     0.001   0.1% |
+  Initialize:                              0.084     0.012   1.5% ||
+   Analyze:                                0.001     0.000   0.0% |
+    Group kpoints:                         0.001     0.001   0.1% |
+   Analyze symmetries.:                    0.001     0.001   0.1% |
+   Initialize_G_maps:                      0.070     0.070   8.2% |--|
+ Get matrix element:                       0.058     0.001   0.1% |
+  Get kpoint pair:                         0.041     0.000   0.0% |
+   fft indices:                            0.000     0.000   0.0% |
+   get k-points:                           0.041     0.000   0.0% |
+    Get a k-point:                         0.041     0.034   4.0% |-|
+     Load projections:                     0.000     0.000   0.0% |
+     load wfs:                             0.006     0.006   0.7% |
+  Group kpoints:                           0.000     0.000   0.0% |
+  get_optical_pair_density_head:           0.007     0.000   0.0% |
+   Optical limit:                          0.007     0.002   0.3% |
+    Derivatives:                           0.005     0.005   0.6% |
+  get_pair_density:                        0.009     0.000   0.0% |
+   conj:                                   0.000     0.000   0.0% |
+   paw:                                    0.008     0.000   0.1% |
+    Calculate pair-densities:              0.008     0.001   0.2% |
+     fft:                                  0.007     0.007   0.8% |
+     gemm:                                 0.000     0.000   0.0% |
+ Group kpoints:                            0.000     0.000   0.0% |
+ Hilbert transform:                        0.056     0.056   6.6% |--|
+ Intraband:                                0.100     0.093  10.9% |---|
+  Derivatives:                             0.007     0.007   0.8% |
+ symmetrize_wGG:                           0.014     0.014   1.7% ||
+ symmetrize_wvv:                           0.008     0.008   0.9% |
+ symmetrize_wxvG:                          0.049     0.049   5.8% |-|
+Read ground state:                         0.134     0.134  15.9% |-----|
+Other:                                     0.033     0.033   3.9% |-|
+-----------------------------------------------------------------
+Total:                                               0.846 100.0%
+
+Mon Mar 20 13:21:31 2023
+Timing:                              incl.     excl.
+-----------------------------------------------------------
+Hamiltonian:                         0.020     0.001   0.0% |
+ Atomic:                             0.016     0.016   0.3% |
+  XC Correction:                     0.000     0.000   0.0% |
+ Calculate atomic Hamiltonians:      0.000     0.000   0.0% |
+ Communicate:                        0.000     0.000   0.0% |
+ Initialize Hamiltonian:             0.000     0.000   0.0% |
+ Poisson:                            0.000     0.000   0.0% |
+ XC 3D grid:                         0.003     0.003   0.1% |
+LCAO initialization:                 0.201     0.022   0.4% |
+ LCAO eigensolver:                   0.078     0.001   0.0% |
+  Calculate projections:             0.000     0.000   0.0% |
+  DenseAtomicCorrection:             0.001     0.001   0.0% |
+  Distribute overlap matrix:         0.000     0.000   0.0% |
+  Orbital Layouts:                   0.060     0.060   1.2% |
+  Potential matrix:                  0.014     0.014   0.3% |
+  Sum over cells:                    0.002     0.002   0.0% |
+ LCAO to grid:                       0.028     0.028   0.6% |
+ Set positions (LCAO WFS):           0.073     0.014   0.3% |
+  Basic WFS set positions:           0.002     0.002   0.0% |
+  Basis functions set positions:     0.000     0.000   0.0% |
+  P tci:                             0.019     0.019   0.4% |
+  ST tci:                            0.021     0.021   0.4% |
+  mktci:                             0.017     0.017   0.3% |
+PWDescriptor:                        0.153     0.153   3.0% ||
+SCF-cycle:                           0.981     0.039   0.8% |
+ Davidson:                           0.542     0.127   2.5% ||
+  Apply H:                           0.064     0.062   1.2% |
+   HMM T:                            0.002     0.002   0.0% |
+  Subspace diag:                     0.103     0.006   0.1% |
+   calc_h_matrix:                    0.080     0.014   0.3% |
+    Apply H:                         0.066     0.064   1.3% ||
+     HMM T:                          0.002     0.002   0.0% |
+   diagonalize:                      0.013     0.013   0.2% |
+   rotate_psi:                       0.005     0.005   0.1% |
+  calc. matrices:                    0.214     0.085   1.7% ||
+   Apply H:                          0.129     0.124   2.5% ||
+    HMM T:                           0.005     0.005   0.1% |
+  diagonalize:                       0.026     0.026   0.5% |
+  rotate_psi:                        0.007     0.007   0.1% |
+ Density:                            0.194     0.000   0.0% |
+  Atomic density matrices:           0.014     0.014   0.3% |
+  Mix:                               0.028     0.028   0.5% |
+  Multipole moments:                 0.002     0.002   0.0% |
+  Pseudo density:                    0.151     0.036   0.7% |
+   Symmetrize density:               0.115     0.115   2.3% ||
+ Hamiltonian:                        0.202     0.006   0.1% |
+  Atomic:                            0.158     0.158   3.1% ||
+   XC Correction:                    0.000     0.000   0.0% |
+  Calculate atomic Hamiltonians:     0.005     0.005   0.1% |
+  Communicate:                       0.000     0.000   0.0% |
+  Poisson:                           0.001     0.001   0.0% |
+  XC 3D grid:                        0.031     0.031   0.6% |
+ Orthonormalize:                     0.004     0.001   0.0% |
+  calc_s_matrix:                     0.001     0.001   0.0% |
+  inverse-cholesky:                  0.001     0.001   0.0% |
+  projections:                       0.001     0.001   0.0% |
+  rotate_psi_s:                      0.000     0.000   0.0% |
+Set symmetry:                        0.024     0.024   0.5% |
+Other:                               3.675     3.675  72.7% |----------------------------|
+-----------------------------------------------------------
+Total:                                         5.054 100.0%
+
+Memory usage: 111.23 MiB
+Date: Mon Mar 20 13:21:31 2023
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 15937740: <Absorptions_spectrum.py> in cluster <dcc> Done
+
+Job <Absorptions_spectrum.py> was submitted from host <n-62-27-23> by user <s183553> in cluster <dcc> at Mon Mar 20 13:20:57 2023
+Job was executed on host(s) <12*n-62-28-28>, in queue <hpc>, as user <s183553> in cluster <dcc> at Mon Mar 20 13:20:58 2023
+</zhome/06/4/136859> was used as the home directory.
+</zhome/06/4/136859/dft_course/CX5/dielectric_function> was used as the working directory.
+Started at Mon Mar 20 13:20:58 2023
+Terminated at Mon Mar 20 13:21:31 2023
+Results reported at Mon Mar 20 13:21:31 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash -l
+id=$LSB_JOBID
+mq=/zhome/06/4/136859/dft_course/.myqueue/lsf-$id
+source /zhome/06/4/136859/dft_venv/bin/activate
+echo "venv: /zhome/06/4/136859/dft_venv/bin/activate"
+(touch $mq-0 && \
+ cd '/zhome/06/4/136859/dft_course/CX5/dielectric_function' && \
+ mpiexec python3 Absorptions_spectrum.py && \
+ touch $mq-1) || \
+(touch $mq-2; exit 1)
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   153.36 sec.
+    Max Memory :                                 274 MB
+    Average Memory :                             274.00 MB
+    Total Requested Memory :                     73728.00 MB
+    Delta Memory :                               73454.00 MB
+    Max Swap :                                   -
+    Max Processes :                              17
+    Max Threads :                                21
+    Run time :                                   147 sec.
+    Turnaround time :                            34 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </zhome/06/4/136859/dft_course/CX5/dielectric_function/Absorptions_spectrum.py.15937740.err> for stderr output of this job.
+
